@@ -1,0 +1,1137 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+:root {
+    --nav-bg-shop: #FBF9F8;
+    --nav-bg-cus: #4B4B4B;
+    --nav-bg-admin: #4B4B4B;
+    --nav-bg2-shop: #F9F2EF;
+    --nav-bg2-cus: #585656;
+    --nav-bg2-admin: #343331;
+    --nav-select-bg-shop: #F2EEEA;
+    --nav-text-shop: #626261;
+    --orange-text: #FF9C00;
+    --light-orange: #FFE0AF;
+    --orange: #FF9C00;
+    --green: #28D764;
+    --hover-orange: #ffac27;
+    --white: #ffffff;
+    --white: #ffffff;
+    --red: #DD3A3A;
+
+}
+.modal .modal-content{
+    background: rgba(255, 255, 255, 0.8);
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(50px);
+}
+.fade{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+}
+.status-tag{
+    padding: 2px 8px !important;
+    text-align: center;
+    border: 1px solid !important;
+    border-radius: 5px;
+}
+.color2-btn:hover{
+    transition: 0.3s;
+    color: var(--hover-orange);
+    cursor: pointer;
+}
+.header-bar{
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+.back-button{
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
+.back-button:hover{
+    width:22px;
+    height:22px;
+    transition: 0.3s;
+}
+.orange-text{
+    color: var(--orange);
+    text-decoration: none;
+    cursor: pointer;
+}
+.green-text{
+    color: var(--green);
+    text-decoration: none;
+    /* cursor: pointer; */
+}
+.modal-content{
+    border-radius: 15px !important;
+    padding-bottom: 5px;
+}
+.btn:hover {
+    background-color: var(--hover-orange);
+    color: var(--white);
+    border: 2px solid var(--hover-orange);
+
+}
+
+.primary {
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    color: var(--white);
+}
+
+.secondary {
+    background-color: var(--white);
+    border: 2px solid var(--orange);
+    color: var(--orange);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.t-feild {
+    /* width: 356px; */
+    height: 40px;
+    padding: 0px 14px;
+    background: rgba(255, 255, 255, 0.55);
+    border: 1px solid #A2A2A2;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.nav-admin .logo {
+    width: 190px;
+}
+
+.nav-admin {
+    height: 100vh;
+    background: var(--nav-bg-shop);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-admin .nav-top {
+    padding: 10px;
+}
+
+.nav-admin .nav-top .nav-list {
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-admin .nav-top .nav-list li div {
+    width: 100%;
+    height: 40px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: var(--nav-text-shop);
+    font-weight: 400;
+    gap: 10px;
+    cursor: pointer;
+    background: transparent;
+}
+.nav-admin .nav-top .nav-list li :hover{
+    background: var(--nav-select-bg-shop);
+    color: var(--orange-text);
+    transition: 0.3s;
+}
+
+.nav-admin .nav-top .nav-list .selected {
+    background: var(--nav-select-bg-shop);
+    color: var(--orange-text);
+    font-weight: 500;
+}
+
+.nav-admin .nav-bottom {
+    background: var(--nav-bg2-shop);
+    height: 40vh;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-admin .nav-bottom .sec-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.nav-admin .nav-bottom .card-thumb {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 5px 15px;
+    gap: 10px;
+    cursor: pointer;
+}
+.nav-admin .nav-bottom .card-thumb:hover {
+    background: var(--light-orange);
+   transition: 0.3s;
+}
+
+
+.nav-admin .nav-bottom .card-thumb span h6 {
+    margin: 0px;
+}
+
+.nav-admin .nav-bottom .card-thumb span span {
+    font-size: 14px;
+    color: var(--orange-text);
+}
+
+.nav-admin .nav-bottom .card-thumb img {
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+.nav-admin .nav-bottom .card-thumb-selected {
+    background: var(--hover-orange);
+    color: var(--white);
+}
+.nav-admin .nav-bottom .card-thumb-selected span span{
+    color: var(--white);
+}
+.nav-admin .nav-bottom .logout-btn {
+    background: var(--white);
+    border-radius: 8px;
+    height: 40px;
+    padding: 5px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000000;
+    gap: 10px;
+}
+.logout-btn:hover{
+    background: var(--hover-orange) !important;
+    color: var(--white) !important;
+    transition: 0.3s;
+}
+
+
+
+
+
+.tool-bar {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 10px;
+}
+
+.section {
+    width: 100%;
+    padding: 12px;
+}
+
+.section .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.section .header h4 {
+    margin: 0px;
+
+}
+
+.section .header span {
+    font-weight: 500;
+}
+
+
+.section .sec-container {
+    height: 88%;
+}
+
+.section .table-responsive {
+    overflow-y: auto;
+    height: 100%;
+
+}
+
+.sec-container .tool-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.tool-bar .btn {
+    color: var(--white);
+    background: var(--orange-text);
+    border-radius: 9px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.tool-bar .btn img {
+    width: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.modal-box .modal-dialog {
+    width: 900px;
+    max-width: none;
+}
+
+.modal-box .modal-body .container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 20px;
+}
+
+.modal-box .modal-body .col-4,
+.modal-box .modal-body .col-8 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-box .modal-body .img-upload {
+    width: 280px;
+    height: 280px;
+    border: 2px dashed #000000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/profile-image-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.modal-box .modal-body .img-upload img{
+    width: 278px;
+    height: 278px;
+    border-radius: 15px;
+    position: absolute;
+    object-fit: cover;
+    z-index: 10;
+}
+.modal-box .modal-body .img-upload input{
+    opacity: 0.0;
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+    z-index: 100;
+    position: absolute;
+}
+
+
+.modal-box .modal-body textarea {
+    height: 200px;
+    padding-top: 8px;
+}
+
+.modal-box .modal-body .bottom {
+    margin-top: 20px;
+}
+
+.modal-box .modal-body .bottom .col-4,
+.modal-box .modal-body .bottom .col-8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    justify-content: flex-end;
+}
+
+.modal-box .modal-body .bottom .col-8 .btn {
+    width: 200px;
+}
+
+.modal-box .modal-body .bottom .col-4 {
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-sec {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.btn-sec .btn {
+    width: 100%;
+    max-height: 45px;
+
+}
+
+.delete {
+    color: var(--red);
+    border: none;
+}
+
+.delete:hover {
+    background: none;
+    border: none;
+    color: var(--red);
+    font-weight: 500;
+}
+
+.table-responsive tbody tr {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.02);
+    height: 30px;
+    width: 100%;
+}
+
+.table-responsive tbody tr p {
+    margin-bottom: 5px;
+}
+
+.table thead th{
+    position: sticky; /* make the table heads sticky */
+        top: 0px;
+        background: var(--white);
+}
+.table tbody tr:first-child>* {
+    padding-top: 10px;
+}
+
+.table> :not(:first-child) {
+    border-top: none;
+}
+
+
+
+
+.main-wrapper {
+    width: 100%;
+    padding: 20px;
+    height: 100vh;
+}
+
+.shop-section .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+
+/*
+* edite product view -------------------------------
+*/
+#edit-product-modal #delete {
+    color: var(--red);
+}
+
+.modal-body .container .qyt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.modal-body .container .qyt .t-feild {
+    width: 100%;
+}
+
+#plus-item {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+
+/*
+* admin all shop view -------------------------------
+*/
+
+.header .current_timestamp {
+    font-weight: 600;
+}
+
+.shop-section .sec-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.shop-section .sec-container .tile-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    min-width: 400px;
+}
+
+.shop-section .sec-container .tile-board .tile {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.shop-section .sec-container .tile-board .tile img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.shop-section .sec-container .tile-board #addShop {
+    border: 2px dashed #A2A2A2;
+    background: transparent;
+    box-shadow: none;
+    color: #A2A2A2;
+    justify-content: center;
+}
+
+.shop-section .sec-container .tile-board #addShop img {
+    border-radius: none;
+    width: 25px;
+    height: auto;
+}
+
+
+
+
+/*
+* delete confirmation view -------------------------------
+*/
+
+.mini-modal .modal-body .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+}
+
+.mini-modal .modal-dialog {
+    width: fit-content;
+}
+
+.mini-modal .modal-body .title {
+    width: 100%;
+    text-align: center;
+}
+
+.mini-modal .modal-body .btn-sec .btn {
+    min-width: 200px;
+}
+
+
+/*
+* delete confirmation view -------------------------------
+*/
+.view-type-modal .modal-body .modal-header p{
+    margin: 0px !important;
+}
+.view-type-modal .modal-body .modal-header {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    width: 100%;
+    gap: 10px;
+}
+
+.view-type-modal .modal-body .info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+.view-type-modal .modal-body .modal-header .msg{
+    width: 100%;
+} 
+
+.view-type-modal .modal-body .info-container .customer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.view-type-modal .modal-body .container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.view-type-modal .modal-body .table-outer {
+    width: 100%;
+    background: #F4F4F4;
+    box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 10px;
+    height: 50vh;
+}
+
+.view-type-modal .modal-body .table {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#view-order-modal .modal-body .table .product-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 5px;
+}
+#view-order-modal .modal-body .table .product-card .product{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#view-order-modal .modal-body .table .product-card .product .name{
+    display: block;
+}
+#view-order-modal .modal-body .table .product-card .product img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+    padding: none;
+}
+#view-order-modal .modal-body .table .product-card .pro-count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+    width: 50%;
+}
+#view-order-modal .modal-body .table .product-card .pro-count .qyt-count,
+#view-order-modal .modal-body .table .product-card .pro-count .price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    gap: none !important;
+}
+label{
+    color: var(--nav-text-shop);
+}
+
+
+.view-type-modal .btn-sec{
+    align-items: flex-end;
+}
+.view-type-modal .btn-sec .btn{
+    width: 200px;
+}
+
+
+
+/*
+* Shop table view -------------------------------
+*/
+.shop-tile-table {
+    overflow-y: scroll;
+    height: 60vh;
+    width: 100%;
+    padding: 10px;
+    background: #F4F4F4;
+    box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.shops .logout-btn{
+    background: var(--white);
+    border-radius: 8px;
+    height: 40px;
+    padding: 5px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000000;
+    gap: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*
+* scroll bar customize -------------------------------
+*/
+::-webkit-scrollbar {
+    width: 10px;
+    position: absolute;
+    left: 10px;
+    scroll-behavior: smooth;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #FFFFFF;
+    border-radius:10px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #C1C1C1;
+    border-radius:10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--nav-text-shop);
+}
+
+
+
+/*
+* Add shop view -------------------------------
+*/
+#add-shop-modal .modal-dialog{
+    width:550px;
+}
+#add-shop-modal .modal-body .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+#add-shop-modal .modal-body .container .feilds-sec{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+#add-shop-modal .modal-body .container .feilds-sec .t-feild{
+    width: 100%;
+}
+#add-shop-modal .modal-body .container .btn{
+    width: 100%;
+}
+#add-shop-modal .modal-body .container #BusiNature{
+    height: 100px !important;
+}
+#add-shop-modal .modal-body .container .feilds-sec span{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+/*
+* Add shop view -------------------------------
+*/
+
+.view-type-modal .modal-body .table .order-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 10px;
+} 
+.view-type-modal .modal-body .table .order-card p{
+    margin: 0px;
+    font-size: 14px;
+} 
+
+/*
+* Add shop view -------------------------------
+*/
+.add-img{
+    border: 2px dashed #000000;
+}
+.up-shop-dp {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+.up-shop-banner {
+    width: 500px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/*
+* Dashboad shop view -------------------------------
+*/
+.white-bd-card{
+    background: #FFFFFF;
+box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+border-radius: 9px;
+}
+.stat-card{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.stat-card .info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.stat-card .info .count{
+    font-size: 36px;
+    margin: 0px;
+}
+.stat-card .icon{
+    font-size: 38px;
+    margin-right: 10px;
+}
+.btn-section{
+    border-top: 1px solid #bfbfbf;
+    padding-top: 10px;
+}
+.btn-card{
+    background-color: var(--light-orange);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    position: relative;
+    border: 2px solid transparent;
+
+}
+
+.btn-card .info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 80px;
+}
+.btn-card .info .title{
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.btn-card .info .description{
+    font-size: 14px;
+    color: #626261;
+    
+}
+.btn-card .icon{
+    font-size: 36px;
+    align-self: flex-end;
+}
+.btn-card:hover{
+    border-color:  var(--hover-orange);
+    color: var(--orange);
+    background: var(--w
+    );
+    /* top: -5px; */
+    transition: 0.3s;
+}
+
+
+/*
+* Add shop view -------------------------------
+*/
+.shopper-profile .firstcol{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    gap: 20px;
+}
+.shopper-profile .firstcol .dp-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.shopper-profile .secondcol .info label{
+    font-size: 16px;
+    color: var(--nav-text-shop);
+}
+.shopper-profile .secondcol .info #s-name{
+    font-size: 24px;
+}
+.shopper-profile .shop-tile-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 88vh;
+}
+.shopper-profile .shop-tile-table .tile {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.shopper-profile .shop-tile-table .tile img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+/* .shopper-profile .proinfo-sec{
+    width: 100%;
+} */
+.shopper-profile .proinfo-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px
+}
+.shopper-profile .proinfo-sec .sub-sec{
+    width: 100%; 
+}
+.shopper-profile .proinfo-sec p{
+    font-size: 20px; 
+}
+.shopper-profile .proinfo-sec #s-name{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+
+
+/*
+* profile settings - customer -------------------------------
+*/
+.setting-modal .setting-options{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.setting-modal .setting-options .opt-btn{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 5px;
+    justify-content: space-between;
+    border-top: 1px solid var(--nav-bg2-shop);
+    border-bottom: 1px solid var(--nav-bg2-shop);
+    align-items: center;
+    width: 300px;
+    cursor: pointer;
+}
+.opt-btn+.opt-btn{
+    border-top-color: transparent;
+}
+.opt-btn p{
+    margin: 0px;
+}
+.setting-modal .setting-options .opt-btn:hover{
+    padding-right: 0px;
+    transition: 0.3s;
+    border-color: var(--hover-orange);
+    z-index: 100;
+    color: #000000;
+
+}
+.setting-modal .setting-options {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.modal-backdrop:nth-child(2n-1) {
+    opacity : 0;
+    display: none;
+}
+
+
+/*
+* profile settings - customer -------------------------------
+*/
+.update-info-modal .modal-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    padding: 20px;
+    align-items: center;
+}
+.update-info-modal .modal-body .feilds-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.update-info-modal .modal-body .feilds-sec span{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.update-info-modal .modal-body .feilds-sec span .t-feild{
+    width: 100%;
+}
+.update-info-modal .modal-dialog{
+    width: fit-content;
+}
+.update-info-modal .modal-body .images{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.update-info-modal .modal-body .image-upload{
+    border: 2px dashed #000000;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+.update-info-modal .modal-body .image-upload img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    object-fit: cover;
+    z-index: 10;
+}
+.update-info-modal .modal-body .image-upload input{
+    opacity: 0.0;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    z-index: 100;
+    position: absolute;
+    /* top: -100%; */
+    
+}
+.update-info-modal .modal-body .image-upload i{
+    position: absolute;
+    /* top: -100%; */
+}
+
+
+.update-info-modal .modal-body .banner-image-upload{
+    border: 2px dashed #000000;
+    border-radius: 15px;
+    width: 450px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+.update-info-modal .modal-body .banner-image-upload img{
+    border-radius: 100%;
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    object-fit: cover;
+    z-index: 10;
+}
+.update-info-modal .modal-body .banner-image-upload input{
+    opacity: 0.0;
+    width: 450px;
+    height: 150px;
+    border-radius: 100%;
+    z-index: 100;
+    position: absolute;
+    /* top: -100%; */
+    
+}
+.update-info-modal .modal-body .banner-image-upload i{
+    position: absolute;
+    /* top: -100%; */
+}
+
+
+.update-info-modal .modal-body .btn{
+    width: 100%;
+}
+
+
+
+.dropdown-menu li{
+    cursor: pointer;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: var(--light-orange);
+    transition: 0.3s;
+}

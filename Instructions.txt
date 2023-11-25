@@ -1,0 +1,97 @@
+https://development.wearemeridian.com/classic-travel-2/images/about/n1.jpg
+https://development.wearemeridian.com/classic-travel-2/images/about/n2.jpg
+https://development.wearemeridian.com/classic-travel-2/images/about/n3.jpg
+https://development.wearemeridian.com/classic-travel-2/images/about/n4.jpg
+https://development.wearemeridian.com/classic-travel-2/images/about/n5.jpg
+https://development.wearemeridian.com/classic-travel-2/images/about/n6.jpg
+
+
+
+
+   $stmt = $conn->prepare("SELECT SUM(or_it.`sub_total`) AS total_earn,
+COUNT(DISTINCT(`site_order`.`order_number`)) AS totla_orders,
+COUNT(DISTINCT(`site_order`.`user_user_id`)) AS total_customers
+FROM site_order
+    JOIN order_item AS or_it ON site_order.`order_id` = or_it.`order_order_id`
+    JOIN  product ON or_it.`product_product_id` = `product`.`product_id`
+    JOIN shop AS sh ON product.`shop_shop_id` = sh.`shop_id`
+    JOIN USER ON sh.`user_user_id` = user.`user_id`
+    WHERE user.user_id = :id");
+
+    // bind a value to the parameter placeholder
+    $stmt->bindParam(':id', $userId);
+
+// execute the prepared statement
+    $stmt->execute();
+
+// fetch the results as an associative array
+    $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+// loop through the results and output them
+//    foreach ($results as $row) {
+//        echo $row['column_name'];
+//    }
+
+
+
+
+
+
+    foreach ($results as $row) {
+//        $row = $result->fetch_assoc();
+
+        $sendOnj = [
+            'status' => "SUCCESS",
+            'msg' => "Login OK",
+            'totalEarn' => $row["total_earn"],
+            'totalOrder' => $row["totla_orders"],
+            'totalCustomers' => $row["total_customers"]
+    ];
+        return $sendOnj;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DB Name - fernwei3_shasheesha_testing
+DB username - fernwei3_shasheesha
+DB password - oB0Uv6&mFLhy
+
+
+
+
+
+
+
+
+

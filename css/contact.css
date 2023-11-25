@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    /*font-family: 'Poppins';*/
+    margin: 0;
+    padding: 0;
+}
+.section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: fit-content;
+}
+section::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+.contact-container
+{
+    position: relative;
+    min-width: 1100px;
+    min-height: 580px;
+    display: flex;
+    z-index: 100;
+}
+.contact-container .contactInfo
+{
+    position: absolute;
+    top: 100px;
+    width: 50%;
+    height: fit-content;
+    background: #FFC05C;
+    z-index: -1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 25px rgb(0,0,0,0.15);
+    border-radius: 20px;
+}
+.contact-container .contactInfo p
+{
+    width: 340px;
+}
+.contact-container .contactForm
+{
+    box-sizing: border-box;
+    position: relative;
+    padding: 40px 50px;
+    /* padding-left: 250px; */
+    margin-left: 400px;
+    width: calc(100% - 40%);
+    height: fit-content;
+    /*box-shadow: 0 50px 50px rgb(0,0,0,0.25);*/
+    border-radius: 20px;
+    border: solid;
+    border-color: #FF9C00;
+    background: #FFFFFF;
+    border: 6px solid #FF9C00;
+    /*box-shadow: inset 0px 4px 4px rgba(248, 239, 22, 0.25);*/
+    border-radius: 20px;
+}
+.primary{
+    background: #ffac27 !important;
+    color: white !important;
+    font-weight: 500;
+}
+.contact-container .contactForm .formBox .inputBox textarea{
+    width: 100%;
+    height: 60px;
+    padding-top: 5px;
+}
+.contact-container .contactForm .formBox .inputBox
+{
+    margin-bottom: 20px;
+}
+
+.contact-container .contactForm h3
+{
+    margin-bottom: 40px;
+}
+
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+}
+.con{
+    font-size: 50px;
+    color: #ffac27;
+}
+.r1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.detail-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    color: var(--hover-orange);
+}

@@ -168,7 +168,6 @@ include "./controller/shop_controller.php";
 				<div class="content">
 					<h3> Laptop Repair </h3>
 					<p> We repir the laptop and clean the laptop add new items</p>
-					<a href="#" class="btn"> Read More </a>
 				</div>
 			</div>
 
@@ -177,7 +176,6 @@ include "./controller/shop_controller.php";
 				<div class="content">
 					<h3> Desktop Repair </h3>
 					<p> We repir the laptop and clean the laptop add new items</p>
-					<a href="#" class="btn"> Read More </a>
 				</div>
 			</div>
 
@@ -187,7 +185,6 @@ include "./controller/shop_controller.php";
 				<div class="content">
 					<h3> Desktop Assemble </h3>
 					<p> We repir the laptop and clean the laptop add new items</p>
-					<a href="#" class="btn"> Read More </a>
 				</div>
 			</div>
 

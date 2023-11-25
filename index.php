@@ -71,20 +71,44 @@ include "./controller/shop_controller.php";
 			<div class="box">
 				<img src="./assets/image/features-img-1.jpg">
 				<h3> Second Hand </h3>
-				<p> If you wants to second hand good conditions dekstop and laptop</p>
+
 			</div>
 
 			<div class="box">
 				<img src="./assets/image/features-img-2.jpg">
 				<h3> Dilivery </h3>
-				<p> If you wants to second hand good conditions dekstop and laptop</p>
 			</div>
 
 			<div class="box">
 				<img src="./assets/image/features-img-3.png">
 				<h3> Payment </h3>
-				<p> If you wants to second hand good conditions dekstop and laptop</p>
+
 			</div>
+
+            <div class="box">
+                <img src="./assets/image/features-img-3.png">
+                <h3> Discounts </h3>
+
+            </div>
+
+            <div class="box">
+                <img src="./assets/image/features-img-3.png">
+                <h3> Online Oder </h3>
+ 
+            </div>
+
+            <div class="box">
+                <img src="./assets/image/features-img-3.png">
+                <h3> Happy Sell </h3>
+
+            </div>
+
+            <div class="box">
+                <img src="./assets/image/features-img-3.png">
+                <h3> Promotion </h3>
+
+            </div>
+
 		</div>
 	</section>
 

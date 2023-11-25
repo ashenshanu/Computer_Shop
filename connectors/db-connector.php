@@ -6,7 +6,7 @@ function getConnection(){
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $database = "mrpc_db";
+    $database = "mrpc";
 
     $conn = new mysqli($servername, $username, $password, $database);
     try {

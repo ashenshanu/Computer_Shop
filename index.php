@@ -72,21 +72,18 @@ include "./controller/shop_controller.php";
 				<img src="./assets/image/features-img-1.jpg">
 				<h3> Second Hand </h3>
 				<p> If you wants to second hand good conditions dekstop and laptop</p>
-				<a href="#" class="btn">read More</a>
 			</div>
 
 			<div class="box">
 				<img src="./assets/image/features-img-2.jpg">
 				<h3> Dilivery </h3>
 				<p> If you wants to second hand good conditions dekstop and laptop</p>
-				<a href="#" class="btn">read More</a>
 			</div>
 
 			<div class="box">
 				<img src="./assets/image/features-img-3.png">
 				<h3> Payment </h3>
 				<p> If you wants to second hand good conditions dekstop and laptop</p>
-				<a href="#" class="btn">read More</a>
 			</div>
 		</div>
 	</section>

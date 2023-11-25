@@ -70,17 +70,11 @@ include "./controller/shop_controller.php";
 		<div class="box-container">
 			<div class="box">
 				<img src="./assets/image/features-img-1.jpg">
-				<h3> Second Hand </h3>
-
-			</div>
-
-			<div class="box">
-				<img src="./assets/image/features-img-2.jpg">
 				<h3> Dilivery </h3>
 			</div>
 
 			<div class="box">
-				<img src="./assets/image/features-img-3.png">
+				<img src="./assets/image/features-img-2.png">
 				<h3> Payment </h3>
 
 			</div>
@@ -92,20 +86,20 @@ include "./controller/shop_controller.php";
             </div>
 
             <div class="box">
-                <img src="./assets/image/features-img-3.png">
+                <img src="./assets/image/features-img-4.png">
                 <h3> Online Oder </h3>
  
             </div>
 
             <div class="box">
-                <img src="./assets/image/features-img-3.png">
+                <img src="./assets/image/features-img-5.png">
                 <h3> Happy Sell </h3>
 
             </div>
 
             <div class="box">
-                <img src="./assets/image/features-img-3.png">
-                <h3> Promotion </h3>
+                <img src="./assets/image/features-img-6.png">
+                <h3> Customer Support </h3>
 
             </div>
 

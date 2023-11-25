@@ -14,7 +14,7 @@
     <title>Mr.PC | Trusted Shops</title>
 </head>
 <section id="loader" style="position:fixed; width:100vw; height:100vh; z-index:10000; display:flex; flex-direction:column; justify-content:center; align-items:center; background:#ffffff;">
-    <img src="./assets/sanakin-logo.png"  style="margin-bottom: 20px; width:40vW;" alt="">
+    <img src="./assets/logo.png"  style="margin-bottom: 20px; width:40vW;" alt="">
     <div class="spinner-grow text-warning" role="status">
         <span class="visually-hidden">Loading...</span>
     </div>

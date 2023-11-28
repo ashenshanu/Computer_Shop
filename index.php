@@ -393,8 +393,9 @@ include "./controller/shop_controller.php";
 			<div class="swiper-wrapper">
 				<div class="swiper-slide box">
 					<img src="./assets/image/cu-1.jpg">
-					<p>Quick service & very trustworthy. Worked with Tom Nolan on a quick fix on my mirror. He was very knowledgeable about potential issues before getting into it & was able to get it fixed very quickly. I would trust them with any future repairs, I would not take my car anywhere else.” </p>
-					<h3> Tessa </h3>
+					<p> "Very first purchase to this company I had a problems with the product, but I have bought this company two times afterwards without any problems.
+                    If the seller took little more attention trusted customers, for example, as small volume discounts, I would have given five stars." </p>
+					<h3> Sashini </h3>
 					<div class="stars">
 						<i class="fa fa-star"></i>
 						<i class="fa fa-star"></i>
@@ -406,8 +407,9 @@ include "./controller/shop_controller.php";
 
 				<div class="swiper-slide box">
 					<img src="./assets/image/cu-2.jpg">
-					<p>Quick service & very trustworthy. Worked with Tom Nolan on a quick fix on my mirror. He was very knowledgeable about potential issues before getting into it & was able to get it fixed very quickly. I would trust them with any future repairs, I would not take my car anywhere else.” </p>
-					<h3> Tessa </h3>
+					<p>"Great store for  computer parts.
+                        Found some great parts for my new/old gaming PC. Shopping on the website was easy - as was paying for the goods.It is also noticeable that seller pack products very well (the very best I've ever seen)." </p>
+					<h3> Tom </h3>
 					<div class="stars">
 						<i class="fa fa-star"></i>
 						<i class="fa fa-star"></i>
@@ -419,7 +421,7 @@ include "./controller/shop_controller.php";
 
 				<div class="swiper-slide box">
 					<img src="./assets/image/cu-3.jpg">
-					<p>Quick service & very trustworthy. Worked with Tom Nolan on a quick fix on my mirror. He was very knowledgeable about potential issues before getting into it & was able to get it fixed very quickly. I would trust them with any future repairs, I would not take my car anywhere else.” </p>
+					<p>"I have bought from this store several times, and the customer service has always been excellent. Care is taken of the packaging, the purchased goods meet expectation, and in the event of an issue they are very pro-active to solve it. Very pleased with this store." </p>
 					<h3> Tessa </h3>
 					<div class="stars">
 						<i class="fa fa-star"></i>
@@ -432,8 +434,8 @@ include "./controller/shop_controller.php";
 
 				<div class="swiper-slide box">
 					<img src="./assets/image/cu-4.jpg">
-					<p>Quick service & very trustworthy. Worked with Tom Nolan on a quick fix on my mirror. He was very knowledgeable about potential issues before getting into it & was able to get it fixed very quickly. I would trust them with any future repairs, I would not take my car anywhere else.” </p>
-					<h3> Tessa </h3>
+					<p> "I've ordered twice from this store in the last 18 months and both times it was a great experience. The owner is very helpful and will do his best to answer any questions. I would thoroughly recommend if you are struggling to find the right hardware." </p>
+					<h3> Uditha </h3>
 					<div class="stars">
 						<i class="fa fa-star"></i>
 						<i class="fa fa-star"></i>
@@ -445,8 +447,9 @@ include "./controller/shop_controller.php";
 
 				<div class="swiper-slide box">
 					<img src="./assets/image/cu-5.jpg">
-					<p>Quick service & very trustworthy. Worked with Tom Nolan on a quick fix on my mirror. He was very knowledgeable about potential issues before getting into it & was able to get it fixed very quickly. I would trust them with any future repairs, I would not take my car anywhere else.” </p>
-					<h3> Tessa </h3>
+					<p> "Great website, great service and the owner of the company just is a very nice man. 
+                    Products are 100% as described, shipping and packaging is fast. Good communication with the seller.I would have given five stars."</p>
+					<h3> Suvini </h3>
 					<div class="stars">
 						<i class="fa fa-star"></i>
 						<i class="fa fa-star"></i>

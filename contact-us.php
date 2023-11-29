@@ -92,7 +92,7 @@ $categoryList = getAllCategories();
             <div class="col-3 detail-box">
                 <i class="bi bi-envelope con"></i>
                 <h5>Email</h5>
-                <p class="con-p"><a href="mailto:info@sanakin.lk">info@sanakin.lk</a></p>
+                <p class="con-p"><a href="mailto:info@sanakin.lk">info@mrpc.lk</a></p>
             </div>
         </div>
     </div>

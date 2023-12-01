@@ -5,7 +5,6 @@
 
 		<nav class="navbar">
                 <span id="home-page"><a href="./index.php">Home</a></span>
-                <span id="home-page"><a href="./index.php">Features</a></span>
                 <span id="shop-online-page"><a href="./online-shop.php">Products</a></span>
                 <span id="home-page"><a href="./index.php">Reviews</a></span>
                 <span id="contact-page"><a href="./contact-us.php">Contact</a></span>

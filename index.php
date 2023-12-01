@@ -54,10 +54,10 @@ include "./controller/shop_controller.php";
                     <div class="carousel-item">
                         <img src="./assets/hero-slides/slide 3.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <img src="./assets/hero-slides/slide 10.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <img src="./assets/hero-slides/slide 11.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
@@ -225,10 +225,10 @@ include "./controller/shop_controller.php";
                 <div class="carousel-item">
                     <img src="./assets/hero-slides/slide 6.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item active">
+                <div class="carousel-item">
                         <img src="./assets/hero-slides/slide 12.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item active">
+                <div class="carousel-item">
                         <img src="./assets/hero-slides/slide 13.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
@@ -366,10 +366,10 @@ include "./controller/shop_controller.php";
                     <div class="carousel-item">
                         <img src="./assets/hero-slides/slide 9.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <img src="./assets/hero-slides/slide 14.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <img src="./assets/hero-slides/slide 15.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
@@ -443,7 +443,7 @@ include "./controller/shop_controller.php";
 						<i class="fa fa-star"></i>
 						<i class="fa fa-star"></i>
 					</div>
-				</div>
+				</div> 
 
 				<div class="swiper-slide box">
 					<img src="./assets/image/cu-5.jpg">

@@ -154,7 +154,7 @@
         var xhttp = new XMLHttpRequest();
         xhttp.open("POST", "functions/api.php", true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xhttp.setRequestHeader("application-auth", "sanakin-auth");
+        xhttp.setRequestHeader("application-auth", "computershop-auth");
 
         xhttp.onreadystatechange = function() {
             if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {
@@ -187,7 +187,7 @@
         var xhttp = new XMLHttpRequest();
         xhttp.open("POST", "functions/api.php", true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xhttp.setRequestHeader("application-auth", "sanakin-auth");
+        xhttp.setRequestHeader("application-auth", "computershop-auth");
 
         xhttp.onreadystatechange = function() {
             if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {
@@ -230,7 +230,7 @@
 
         let xhttp = new XMLHttpRequest();
         xhttp.open("POST", "functions/api.php", true);
-        xhttp.setRequestHeader("application-auth", "sanakin-auth");
+        xhttp.setRequestHeader("application-auth", "computershop-auth");
 
         const formData = new FormData();
         formData.append('firstName', fname.value);
@@ -282,7 +282,7 @@
 
             let xhttp = new XMLHttpRequest();
             xhttp.open("POST", "functions/api.php", true);
-            xhttp.setRequestHeader("application-auth", "sanakin-auth");
+            xhttp.setRequestHeader("application-auth", "computershop-auth");
 
             const formData = new FormData();
             formData.append('image', dpImage.files[0]);

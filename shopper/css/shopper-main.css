@@ -15,11 +15,11 @@
     --nav-bg2-admin: #343331;
     --nav-select-bg-shop: #F2EEEA;
     --nav-text-shop: #626261;
-    --orange-text: #FF9C00;
+    --green-text: #FF9C00;
     --light-orange: #FFE0AF;
-    --orange: #FF9C00;
+    --green: #FF9C00;
     --green: #28D764;
-    --hover-orange: #ffac27;
+    --hover-green: #ffac27;
     --white: #ffffff;
     --white: #ffffff;
     --red: #DD3A3A;
@@ -42,7 +42,7 @@ backdrop-filter: blur(50px);
 }
 .color2-btn:hover{
     transition: 0.3s;
-    color: var(--hover-orange);
+    color: var(--hover-green);
     cursor: pointer;
 }
 .header-bar{
@@ -63,7 +63,7 @@ backdrop-filter: blur(50px);
     transition: 0.3s;
 }
 .orange-text{
-    color: var(--orange);
+    color: var(--green);
     text-decoration: none;
     cursor: pointer;
 }
@@ -77,22 +77,22 @@ backdrop-filter: blur(50px);
     padding-bottom: 5px;
 }
 .btn:hover {
-    background-color: var(--hover-orange);
+    background-color: var(--hover-green);
     color: var(--white);
-    border: 2px solid var(--hover-orange);
+    border: 2px solid var(--hover-green);
 
 }
 
 .primary {
-    background-color: var(--orange);
-    border: 2px solid var(--orange);
+    background-color: var(--green);
+    border: 2px solid var(--green);
     color: var(--white);
 }
 
 .secondary {
     background-color: var(--white);
-    border: 2px solid var(--orange);
-    color: var(--orange);
+    border: 2px solid var(--green);
+    color: var(--green);
 }
 
 body {
@@ -154,13 +154,13 @@ body {
 }
 .nav-admin .nav-top .nav-list li :hover{
     background: var(--nav-select-bg-shop);
-    color: var(--orange-text);
+    color: var(--green-text);
     transition: 0.3s;
 }
 
 .nav-admin .nav-top .nav-list .selected {
     background: var(--nav-select-bg-shop);
-    color: var(--orange-text);
+    color: var(--green-text);
     font-weight: 500;
 }
 
@@ -201,7 +201,7 @@ body {
 
 .nav-admin .nav-bottom .card-thumb span span {
     font-size: 14px;
-    color: var(--orange-text);
+    color: var(--green-text);
 }
 
 .nav-admin .nav-bottom .card-thumb img {
@@ -211,7 +211,7 @@ body {
     object-fit: cover;
 }
 .nav-admin .nav-bottom .card-thumb-selected {
-    background: var(--hover-orange);
+    background: var(--hover-green);
     color: var(--white);
 }
 .nav-admin .nav-bottom .card-thumb-selected span span{
@@ -232,7 +232,7 @@ body {
     gap: 10px;
 }
 .logout-btn:hover{
-    background: var(--hover-orange) !important;
+    background: var(--hover-green) !important;
     color: var(--white) !important;
     transition: 0.3s;
 }
@@ -291,7 +291,7 @@ body {
 
 .tool-bar .btn {
     color: var(--white);
-    background: var(--orange-text);
+    background: var(--green-text);
     border-radius: 9px;
     padding: 5px 20px;
     display: flex;
@@ -889,8 +889,8 @@ border-radius: 9px;
     align-self: flex-end;
 }
 .btn-card:hover{
-    border-color:  var(--hover-orange);
-    color: var(--orange);
+    border-color:  var(--hover-green);
+    color: var(--green);
     background: var(--w
     );
     /* top: -5px; */
@@ -1003,7 +1003,7 @@ border-radius: 9px;
 .setting-modal .setting-options .opt-btn:hover{
     padding-right: 0px;
     transition: 0.3s;
-    border-color: var(--hover-orange);
+    border-color: var(--hover-green);
     z-index: 100;
     color: #000000;
 

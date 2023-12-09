@@ -115,5 +115,5 @@ section::before
 }
 a:hover, a:focus {
     text-decoration: none;
-    color: var(--hover-orange);
+    color: var(--hover-green);
 }

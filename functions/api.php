@@ -46,7 +46,7 @@ function userLogin($email, $password)
             if($row["acc_status"] == 'BANNED'){
                 $sendOnj = [
                     'status' => "BANNED ACCOUNT",
-                    'msg' => "You are temporarily banned from sanakin.lk. contact our administration."
+                    'msg' => "You are temporarily banned from Mr.PC. contact our administration."
                 ];
             }else if (password_verify($password, $hashed_password)) {
                 $sendOnj = [
@@ -934,7 +934,7 @@ function updateOrderFromDelivery($orderId,$deCode,$shopId)
 
 
 // Check if the request is an AJAX request
-if (isset($_SERVER['HTTP_APPLICATION_AUTH']) && strtolower($_SERVER['HTTP_APPLICATION_AUTH']) === 'sanakin-auth') {
+if (isset($_SERVER['HTTP_APPLICATION_AUTH']) && strtolower($_SERVER['HTTP_APPLICATION_AUTH']) === 'computershop-auth') {
 
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {

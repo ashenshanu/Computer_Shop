@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
-    <title>Sanakin.LK | Trusted Shops</title>
+    <title>Mr.PC | Trusted Shops</title>
 </head>
 <section id="loader" style="position:fixed; width:100vw; height:100vh; z-index:10000; display:flex; flex-direction:column; justify-content:center; align-items:center; background:#ffffff;">
     <img src="./assets/sanakin-logo.png"  style="margin-bottom: 20px; width:40vW;" alt="">
@@ -18,7 +18,7 @@
 <?php
 require_once "./configs/config.php";
 include "./includes/home-navigation.php"; 
-include "./includes/home-header.php";
+// include "./includes/home-header.php";
 
 require_once "./connectors/db-connector.php";
 
@@ -31,7 +31,7 @@ include "./controller/shop_controller.php";
 ?>
 <body>
     <div class="section hero-sec">
-        <div class="container">
+        <!-- <div class="container"> -->
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -52,126 +52,72 @@ include "./controller/shop_controller.php";
                 <div class="carousel-caption d-none d-md-block hero-banner-content">
                     <div class="row hero-content">
                         <h1 class="main-title">Find the Best Products<br>with <span class="primarycolor-text">Reliability</h1>
-<!--                        <div class="search-bar">-->
-<!--                            <input type="search" class="search" name="search_txt" placeholder="Search Here Shop or Product" id="Search" onkeyup="handleSearchFiled(event)">-->
-<!--                            <input type="button" id="search-btn" class="search-btn btn primary" value="Search" onclick="handleSearchButton(document.getElementById('search_head').value)">-->
-<!--                        </div>-->
 
                     </div>
 
                 </div>
-                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button> -->
             </div>
         </div>
     </div>
-
-    <div class="section cat-sec">
+    <div class="section">
         <div class="container">
-            <h2 class="section-header">Shop Our Top Categories</h2>
-
-
-
-
-
-
-
-
-
-
-
-
-            <div id="category-carousel" class="carousel slide" data-interval="pause" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <?php
-                    $categoryList = getAllCategories();
-
-                    if($categoryList != null) {
-                        ?>
-                        <div class="carousel-item active">
-                            <div class="row">
-                            <?php
-                            $catCount = count($categoryList);
-                            if ($catCount <= 6) {
-                                $maxCount = $catCount;
-                            } else {
-                                $maxCount = 6;
-                            }
-                            for ($cou = 0; $cou < $maxCount; $cou++) {
-                                ?>
-                                <div class='card col-2'
-                                     onclick="location.href='./online-shop.php?cat_id=<?php echo $categoryList[$cou][0] ?>'"
-                                     style="border: transparent;">
-                                    <div class='card-content'
-                                         style="background-image: url('./uploads/category/<?php echo $categoryList[$cou][2] ?>');">
-                                        <div class='cat-name'>
-                                            <h5><?php echo $categoryList[$cou][1] ?></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <?php
-                            }
-
-                            ?>
-                        </div>
-                        </div>
-                        <?php
-                        if ($catCount > 6) {
-                            ?>
-                            <div class="carousel-item">
-                                <div class="row">
-                                <?php
-                                if ($catCount <= 12) {
-                                    $maxCount = $catCount;
-                                } else {
-                                    $maxCount = 12;
-                                }
-                                for ($cou = 6; $cou < $maxCount; $cou++) {
-                                    ?>
-                                    <div class='card col-2'
-                                         onclick="location.href='./online-shop.php?cat_id=<?php echo $categoryList[$cou][0] ?>'"
-                                         style="border: transparent;">
-                                        <div class='card-content'
-                                             style="background-image: url('./uploads/category/<?php echo $categoryList[$cou][2] ?>');">
-                                            <div class='cat-name'>
-                                                <h5><?php echo $categoryList[$cou][1] ?></h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <?php
-                                }
-                                ?>
-                                </div>
-                            </div>
-
-                            <?php
-                        }
-                    }
-                ?>
-            </div>
-            
-                <button class="carousel-control-prev" type="button" data-bs-target="#category-carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#category-carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-
+            <h2 class="section-header heading">Our <span> Features</span></h2>
+            <div class="feature-cards">
+                <div class="f-card">
+                    <div class="f-card-boader">
+                        <img class="f-img" src="./assets/products.png">
+        				<h3> Second Hand </h3>
+        				<p> If you wants to second hand good conditions dekstop and laptop</p>
+                    </div>
+                </div>
+                
+                <div class="f-card">
+                    <div class="f-card-boader">
+                        <img class="f-img" src="./assets/products.png">
+        				<h3> Second Hand </h3>
+        				<p> If you wants to second hand good conditions dekstop and laptop</p>
+                    </div>
+                </div>
+                
+                <div class="f-card">
+                    <div class="f-card-boader">
+                        <img class="f-img" src="./assets/products.png">
+        				<h3> Second Hand </h3>
+        				<p> If you wants to second hand good conditions dekstop and laptop</p>
+                    </div>
+                </div>
+                
+                <div class="f-card">
+                    <div class="f-card-boader">
+                        <img class="f-img" src="./assets/products.png">
+        				<h3> Second Hand </h3>
+        				<p> If you wants to second hand good conditions dekstop and laptop</p>
+                    </div>
+                </div>
+                
+                <div class="f-card">
+                    <div class="f-card-boader">
+                        <img class="f-img" src="./assets/products.png">
+        				<h3> Second Hand </h3>
+        				<p> If you wants to second hand good conditions dekstop and laptop</p>
+                    </div>
+                </div>
+                
+                <div class="f-card">
+                    <div class="f-card-boader">
+                        <img class="f-img" src="./assets/products.png">
+        				<h3> Second Hand </h3>
+        				<p> If you wants to second hand good conditions dekstop and laptop</p>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
 
     <div class="section best-deals products">
         <div class="container">
-            <h2 class="section-header">Best Deals For You!</h2>
+        <h2 class="section-header heading">Our <span> Products</span></h2>
             <div class="row">
                 <?php
                 $bestDealList = getBestDealsProducts();
@@ -184,8 +130,9 @@ include "./controller/shop_controller.php";
                     for ($besD = 0; $besD < $maxCount; $besD++) {
 
                         ?>
-                        <div class='card col-md-3'>
+                        <div class='card col-md-4'>
                             <div class='product-tile'>
+                                <div class="f-card-boader">
                                 <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $bestDealList[$besD][10]?>' alt='Card image cap'
                                      onclick=location.href='./single-product.php?id=<?php echo $bestDealList[$besD][0]?>'>
                                 <div class='card-body'>
@@ -193,128 +140,6 @@ include "./controller/shop_controller.php";
                                     <h6>Rs. <span class='card-price'><?php echo number_format((float)$bestDealList[$besD][3], 2, '.', ',');?></span></h6>
                                     <input <?php echo $addCart?> type='button' class='btn primary' value='Add to Cart' onclick="addtoCart('<?php echo $bestDealList[$besD][0]?>',1)">
                                 </div>
-                            </div>
-                        </div>
-                        <?php
-                    }
-                }
-                ?>
-
-            </div>
-        </div>
-    </div>
-    
-    <div class="section shops">
-        <div class="container baoth-sides-margin-14">
-            <h2 class="section-header">Choose by Shops</h2>
-            <div id="shopsIndicators" class="carousel slide" data-interval="pause" data-bs-ride="carousel">
-
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <?php
-                            $shops = getShops();
-                            // var_dump(count($shops));
-                            if($shops != null) {
-                                if (count($shops)<=8){
-                                    $maxCount = count($shops);
-                                }else{
-                                    $maxCount = 8;
-                                }
-                                for ($shp = 0; $shp < $maxCount; $shp++) {
-
-                                    ?>
-                                    <div class='col-md-3'>
-                                        <div class='card' onclick=location.href='./shop-profile.php?id=<?php echo $shops[$shp][0]?>'>
-                                            <img class='shop-profile' onerror="this.src='./assets/products.png'" src='./uploads/shop_images/shop_dp/<?php echo $shops[$shp][8]?>' alt=''>
-                                            <div class='text'>
-                                                <h5 class='shop-name'><?php echo $shops[$shp][1]?></h5>
-                                                <h6><span id='product-count'></span> Products</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <?php
-                                }
-
-                            }
-                            ?>
-                        </div>
-
-                    </div>
-                    <?php
-                    if (count($shops)>=12){
-                        if (count($shops)<=16){
-                            $maxCount = count($shops);
-                        }else{
-                            $maxCount = 16;
-                        }
-                        ?>
-
-                        <div class="carousel-item">
-                            <div class="row">
-                                <?php
-                                // if (count($shops)>=16){
-                                    for ($shp = 8; $shp < $maxCount; $shp++) {
-
-                                        ?>
-                                        <div class='col-md-3'>
-                                            <div class='card' onclick=location.href='./shop-profile.php?id=<?php echo $shops[$shp][0]?>'>
-                                                <img class='shop-profile' onerror="this.src='./assets/products.png'" src='./uploads/shop_images/shop_dp/<?php echo $shops[$shp][8]?>' alt=''>
-                                                <div class='text'>
-                                                    <h5 class='shop-name'><?php echo $shops[$shp][1]?></h5>
-                                                    <h6><span id='product-count'></span> Products</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <?php
-                                    }
-                                // }
-                                ?>
-                            </div>
-                        </div>
-
-                        <?php
-                    }
-                    ?>
-                </div>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#shopsIndicators" data-bs-slide-to="0" class="indicate-line active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#shopsIndicators" data-bs-slide-to="1" class="indicate-line" aria-label="Slide 2"></button>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#shopsIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#shopsIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <div class="section most-popular products">
-        <div class="container">
-            <h2 class="section-header">Most Popular Products</h2>
-            <div class="row">
-                <?php
-                $mostPopularList = getMostPopularProducts();
-                if($mostPopularList != null) {
-                    if (count($mostPopularList)<=8){
-                        $maxCount = count($mostPopularList);
-                    }else{
-                        $maxCount = 8;
-                    }
-                    for ($besD = 0; $besD < $maxCount; $besD++) {
-
-                        ?>
-                        <div class='card col-md-3'>
-                            <div class='product-tile' >
-                                <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $mostPopularList[$besD][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $mostPopularList[$besD][0]?>'>
-                                <div class='card-body'>
-                                    <h5 class='card-title'><?php echo $mostPopularList[$besD][1]?></h5>
-                                    <h6>Rs. <span class='card-price'><?php echo number_format((float)$mostPopularList[$besD][3], 2, '.', ',');?></span></h6>
-                                    <input <?php echo $addCart?> type='button' class='btn primary' value='Add to Cart' onclick="addtoCart('<?php echo $mostPopularList[$besD][0]?>',1)">
                                 </div>
                             </div>
                         </div>
@@ -324,10 +149,10 @@ include "./controller/shop_controller.php";
                 ?>
 
             </div>
+            
         </div>
     </div>
-
-
+    
     <div class="section ad-banner-1">
         <div id="ad-banner-carousel1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators" style="display: none;">
@@ -348,10 +173,70 @@ include "./controller/shop_controller.php";
             </div>
         </div>
     </div>
+   
+    <div class="section most-popular products">
+        <div class="container">
+            <h2 class="section-header heading">Most <span> Popular Products </span></h2>
+            <div class="row">
+                <?php
+                $mostPopularList = getMostPopularProducts();
+                if($mostPopularList != null) {
+                    if (count($mostPopularList)<=8){
+                        $maxCount = count($mostPopularList);
+                    }else{
+                        $maxCount = 8;
+                    }
+                    for ($besD = 0; $besD < $maxCount; $besD++) {
+
+                        ?>
+                        <div class='card col-md-4'>
+                            <div class='product-tile' >
+                            <div class="f-card-boader">
+                                <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $mostPopularList[$besD][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $mostPopularList[$besD][0]?>'>
+                                <div class='card-body'>
+                                    <h5 class='card-title'><?php echo $mostPopularList[$besD][1]?></h5>
+                                    <h6>Rs. <span class='card-price'><?php echo number_format((float)$mostPopularList[$besD][3], 2, '.', ',');?></span></h6>
+                                    <input <?php echo $addCart?> type='button' class='btn primary' value='Add to Cart' onclick="addtoCart('<?php echo $mostPopularList[$besD][0]?>',1)">
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <?php
+                    }
+                }
+                ?>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section ad-banner-1">
+        <div class="container">
+        <div id="ad-banner-carousel1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators" style="display: none;">
+                <button type="button" data-bs-target="#ad-banner-carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#ad-banner-carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#ad-banner-carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/hero-slides/slide 2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+   
 
     <div class="section deals">
         <div class="container">
-            <h2 class="section-header">Today Best Deals For You</h2>
+            <h2 class="section-header heading">Today Best <span>Deals</span></h2>
 
             <div class="row products">
 
@@ -417,13 +302,15 @@ include "./controller/shop_controller.php";
                                 }
                             for ($pro = 0; $pro < $maxProduct; $pro++) {
                                 ?>
-                                <div class='card col-md-3'>
+                                <div class='card col-md-4'>
                                     <div class='product-tile'>
+                                        <div class="f-card-boader">
                                         <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $categorizedList[$pro][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $categorizedList[$pro][0] ?>'>
                                         <div class='card-body'>
                                             <h5 class='card-title'><?php echo $categorizedList[$pro][1] ?></h5>
                                             <h6>Rs. <span class='card-price'><?php echo number_format((float)$categorizedList[$pro][3], 2, '.', ',');?></span></h6>
                                             <input <?php echo $addCart?> type='button' class='btn primary' value='Add to Cart' onclick="addtoCart('<?php echo $categorizedList[$pro][0]?>',1)">
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
@@ -486,7 +373,7 @@ include "./controller/shop_controller.php";
         </div>
     </div>
 
-    <div class="section cat-sec">
+    <!-- <div class="section cat-sec">
         <div class="container">
             <h2 class="section-header">Today Best Deals For You</h2>
             <div class="row">
@@ -514,7 +401,7 @@ include "./controller/shop_controller.php";
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <script src="./js/bootstrap.js"></script>

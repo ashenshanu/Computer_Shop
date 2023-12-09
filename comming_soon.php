@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
-    <title>Sanakin.lk - Commining Soon</title>
+    <title>Mr.PC - Commining Soon</title>
 </head>
 <style>
     *{

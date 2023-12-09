@@ -137,7 +137,7 @@ if($_GET["san-rest-pa"] != null && strlen($_GET["san-rest-pa"]) > 3) {
             var xhttp = new XMLHttpRequest();
             xhttp.open("POST", "functions/api.php", true);
             xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-            xhttp.setRequestHeader("application-auth", "sanakin-auth");
+            xhttp.setRequestHeader("application-auth", "computershop-auth");
 
             xhttp.onreadystatechange = function() {
                 if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {

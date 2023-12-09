@@ -10,7 +10,7 @@ $productID =$_GET['id'];
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
-    <title>Sanakin.LK | Trusted Shops</title>
+    <title>Mr.PC | Trusted Shops</title>
 
 </head>
 
@@ -20,7 +20,7 @@ require_once "./connectors/db-connector.php";
 require_once "./configs/config.php";
 
 include "./includes/home-navigation.php";
-include "./includes/home-header.php";
+// include "./includes/home-header.php";
 
 include "./controller/product_controller.php";
 include "./controller/shop_controller.php";
@@ -82,14 +82,16 @@ $productCat = getCategoryById($productData[0][8]);
                 }
                 for ($pro = 0; $pro < $maxProduct; $pro++) {
                     ?>
-                    <div class='card col-md-3'>
+                    <div class='card col-md-4'>
                         <div class='product-tile'>
+                        <div class="f-card-boader">
                             <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $categorizedList[$pro][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $categorizedList[$pro][0] ?>'>
                             <div class='card-body'>
                                 <h5 class='card-title'><?php echo $categorizedList[$pro][1] ?></h5>
                                 <h6>Rs. <span class='card-price'><?php echo number_format((float)$categorizedList[$pro][3], 2, '.', ',');?></span></h6>
                                 <input <?php echo $addCart?> type='button' class='btn primary' value='Add to Cart' onclick="addtoCart('<?php echo $categorizedList[$pro][0]?>',1)">
                             </div>
+                        </div>
                         </div>
                     </div>
                     <?php

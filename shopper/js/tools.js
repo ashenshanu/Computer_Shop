@@ -74,7 +74,7 @@ function addProduct() {
 
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     const formData = new FormData();
     formData.append('image', productImage.files[0]);
@@ -107,7 +107,7 @@ function setShopSession(shopID) {
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     xhr.onload = function () {
         if (xhr.readyState === xhr.DONE && xhr.status === 200) {
@@ -192,7 +192,7 @@ function updateProduct() {
 
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     let sendData = new FormData();
 
@@ -248,7 +248,7 @@ function deleteProduct() {
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     xhr.onload = function () {
         if (xhr.readyState === xhr.DONE && xhr.status === 200) {
@@ -415,7 +415,7 @@ function updateStatus(orderID, status) {
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     xhr.onload = function () {
         if (xhr.readyState === xhr.DONE && xhr.status === 200) {
@@ -437,7 +437,7 @@ function logoutUser() {
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     xhr.onload = function () {
         if (xhr.readyState === xhr.DONE && xhr.status === 200) {
@@ -470,7 +470,7 @@ function addShop() {
 
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     const formData = new FormData();
     formData.append('shopName', shopName.value);
@@ -520,7 +520,7 @@ function updateUser(userId) {
     
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     const formData = new FormData();
     formData.append('dp-img', dp_image.files[0]);
@@ -568,7 +568,7 @@ function updateShop(shopId) {
 
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     const formData = new FormData();
     formData.append('dp_image', dp_image.files[0]);
@@ -608,7 +608,7 @@ function updatePassword(userId) {
     
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     const formData = new FormData();
     formData.append('currentPass', currentPass.value);
@@ -637,7 +637,7 @@ function deleteShop(shopId) {
 
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     const formData = new FormData();
     formData.append('shopId', shopId);
@@ -664,7 +664,7 @@ function deleteUser(userId) {
 
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     const formData = new FormData();
     formData.append('userId', userId);

@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
-    <title>Sanakin.LK | Trusted Shops</title>
+    <title>Mr.PC | Trusted Shops</title>
 </head>
 <?php
 require_once "./configs/config.php";
 include "./includes/home-navigation.php";
-include "./includes/home-header.php";
+// include "./includes/home-header.php";
 
 require_once "./connectors/db-connector.php";
 
@@ -89,7 +89,7 @@ $categoryList = getAllCategories();
             <div class="col-3 detail-box">
                 <i class="bi bi-envelope con"></i>
                 <h5>Email</h5>
-                <p class="con-p"><a href="mailto:info@sanakin.lk">info@sanakin.lk</a></p>
+                <p class="con-p"><a href="mailto:infomrpc">infomrpc</a></p>
             </div>
         </div>
     </div>

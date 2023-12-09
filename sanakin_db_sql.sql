@@ -524,7 +524,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`user_id`, `email`, `password`, `acc_type`, `acc_status`, `first_name`, `last_name`, `full_name`, `birthday`, `nic`, `tel`, `gender`, `home_address`, `home_city`, `zip_code`, `dp_img`, `date_created`, `date_updated`, `is_active`) VALUES
-(9, 'admin@sanakin.lk', '$2y$10$jTuKrSM8.WJEc.0zd3KlMuS.5pWbCPqrKpEky/NWE.3U4P48rHWTG', 'ADMIN', 'VERIFIED', 'ADMIN', 'ADMIN', 'ADMIN', '2000-10-13', 'ADMIN', '0000000000', '', 'ADMIN', 'ADMIN', 'ADMIN', '64187d50de73d.png', '2023-03-12 20:43:54', NULL, 1),
+(9, 'adminmrpc', '$2y$10$jTuKrSM8.WJEc.0zd3KlMuS.5pWbCPqrKpEky/NWE.3U4P48rHWTG', 'ADMIN', 'VERIFIED', 'ADMIN', 'ADMIN', 'ADMIN', '2000-10-13', 'ADMIN', '0000000000', '', 'ADMIN', 'ADMIN', 'ADMIN', '64187d50de73d.png', '2023-03-12 20:43:54', NULL, 1),
 (12, 'shashishajanith1@gmail.com', '$2y$10$w.NMqMfXv3AC6Z6hzyY44u8nt9fsRg7VznIOQxxztPoMqMtnBqYs2', 'SHOPPER', 'ACTIVE', 'shasheesha', 'Dissanayake', 'shasheesha janith dissanayake', '2023-03-23', 'shasheesha', '0763133646', 'male', '42b, buddhaloka mawatha,  suwarapola', 'piliyandala', '10300', NULL, '2023-03-22 16:03:21', NULL, 1),
 (13, 'testing3.sanakin@gmail.com', '$2y$10$St.WAIpbPULkWB73V0.26OcF0wK7uzMt6jHj6wfx1OPTA63xUMnVW', 'SHOPPER', 'ACTIVE', 'sachith', 'priyankara', 'sachith priyankara', '2000-06-13', 'sachith', '0763745619', 'male', '159/D, Wethara, Polgasowita', 'Polgasowita', '10320', '641b283f2ed5f.jpg', '2023-03-22 16:09:26', NULL, 1),
 (14, 'testing1.sanakin@gmail.com', '$2y$10$30zV.PMgcvruA69HV0Hxyesjwa8HwbrM8uGsPzjdmTjbrlms0Fu9e', 'SHOPPER', 'ACTIVE', 'Nahinda', 'Rajapaksha', 'A.R.Nahinda Rajapaksha', '1992-02-04', 'Nahinda', '0777777752', 'male', 'flower road', 'colombo', '7', '641b28921d7c6.jpg', '2023-03-22 16:10:48', NULL, 1),

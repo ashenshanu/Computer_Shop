@@ -77,7 +77,7 @@ function placeOrder() {
     const xhr = new XMLHttpRequest();
     xhr.open('POST', 'functions/api.php', true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     xhr.onload = function () {
         if (xhr.readyState === xhr.DONE && xhr.status === 200) {
@@ -104,7 +104,7 @@ function sendComplain(kindof,relativeId,userId) {
     const xhr = new XMLHttpRequest();
     xhr.open('POST', './functions/api.php', true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     xhr.onload = function () {
         if (xhr.readyState === xhr.DONE && xhr.status === 200) {
@@ -147,7 +147,7 @@ function logoutUser() {
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     xhr.onload = function () {
         if (xhr.readyState === xhr.DONE && xhr.status === 200) {
@@ -173,7 +173,7 @@ function uploadInquiry() {
 
     const xhr = new XMLHttpRequest();
     xhr.open('POST', 'functions/api.php', true);
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     const formData = new FormData();
     formData.append('name', name.value);
@@ -201,7 +201,7 @@ function addNewSubscriber() {
 
     const xhr = new XMLHttpRequest();
     xhr.open('POST', 'functions/api.php', true);
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     const formData = new FormData();
     formData.append('email', email.value);

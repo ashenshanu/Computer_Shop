@@ -19,7 +19,7 @@ if(!isset($_SESSION["shop"])){
         <script src="dist/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-        <title>Sanakin.lk</title>
+        <title>Mr.PC</title>
     </head>
 <body>
     <header id="top_header">
@@ -56,7 +56,7 @@ if(!isset($_SESSION["shop"])){
         var xhttp = new XMLHttpRequest();
         xhttp.open("POST", "../functions/api.php", true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xhttp.setRequestHeader("application-auth", "sanakin-auth");
+        xhttp.setRequestHeader("application-auth", "computershop-auth");
 
         xhttp.onreadystatechange = function() {
             if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {

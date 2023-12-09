@@ -10,7 +10,7 @@
                     <a class="" href="#">123/S, Buddhaloka Mw<br> Suwarapola<br> Piliyandal</a>
                     <a class="" href="tel:+94763133646">(+94) 76 3133 646</a>
                 </div>
-                <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="./index.php">Sanakin.lk</a></p>
+                <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="./index.php">Mr.PC</a></p>
             </div>
             <div class="col-lg-2 col-md-6">
                 <h5 class="mb-3 sub-sec-title">Pages</h5>

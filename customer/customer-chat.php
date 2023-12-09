@@ -62,7 +62,7 @@ function sendMessage() {
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     xhr.onload = function () {
         if (xhr.readyState === xhr.DONE && xhr.status === 200) {
@@ -96,7 +96,7 @@ function getAllChats() {
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '../functions/api.php', true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.setRequestHeader("application-auth", "sanakin-auth");
+    xhr.setRequestHeader("application-auth", "computershop-auth");
 
     xhr.onload = function () {
         if (xhr.readyState === xhr.DONE && xhr.status === 200) {

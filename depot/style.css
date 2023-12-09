@@ -7,12 +7,12 @@
     padding: 0;
 }
 :root {
-    --orange: #FF9C00;
-    --hover-orange: #ffac27;
+    --green: #FF9C00;
+    --hover-green: #ffac27;
     --white: #ffffff;
     --grey: #282828;
     --light-grey: #DCDCDC;
-    --tab-orange: #FFE0AF;
+    --tab-green: #FFE0AF;
     --light-green: #B3F594;
     --red: #DD3A3A;
 }
@@ -27,22 +27,22 @@ body {
   background-image: url("images/bg.png");
 }
 .btn{
-    background-color: var(--orange);
+    background-color: var(--green);
     color: var(--white);
-    border: 2px solid var(--orange);
+    border: 2px solid var(--green);
     height: 40px;
     width: 100%;
     border-radius: 5px;
 }
 .btn:hover {
-    background-color: var(--hover-orange);
+    background-color: var(--hover-green);
     color: var(--white);
-    border: 2px solid var(--hover-orange);
+    border: 2px solid var(--hover-green);
 
 }
 .primary {
-    background-color: var(--orange);
-    border: 2px solid var(--orange);
+    background-color: var(--green);
+    border: 2px solid var(--green);
     color: var(--white);
 }
 
@@ -113,7 +113,7 @@ body {
 .box .inputBox input:not([value=""]) ~ label {
   top: -1.75rem;
   left: 0px;
-  color: var(--orange);
+  color: var(--green);
   font-size: 0.75rem;
   /*background-color: white;*/
   /*height: 5px;*/
@@ -122,7 +122,7 @@ body {
 }
 .box .inputBox input:focus {
   outline: none;
-  border: 2px solid var(--orange);
+  border: 2px solid var(--green);
 }
 .box input[type="submit"] {
   box-sizing: border-box;

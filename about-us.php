@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
-    <title>Sanakin.LK | Trusted Shops</title>
+    <title>Mr.PC | Trusted Shops</title>
     <title>Document</title>
 </head>
 <?php
@@ -18,7 +18,7 @@ require_once "./configs/config.php";
 include "./controller/product_controller.php";
 
 include "./includes/home-navigation.php";
-include "./includes/home-header.php"; ?>
+// include "./includes/home-header.php"; ?>
 
 <body class="about-us">
     <section class="row">

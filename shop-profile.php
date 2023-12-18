@@ -35,12 +35,12 @@ $productByShopId = getProductByShopId($shopID);
         <div class="container">
             <div class="row">
                 <div class="shop-header col-md-12">
-                    <img id="shop-banner" onerror="this.src='./assets/products.png'" src="./uploads/shop_images/shop_banner/<?php echo $shopData['dp_banner'];?>" alt="">
+                    <img id="shop-banner" onerror="this.src='./assets/product.jpg'" src="./uploads/shop_images/shop_banner/<?php echo $shopData['dp_banner'];?>" alt="">
 
                 </div>
                 <div class="shop-info">
                     <div class="col-md-4">
-                        <img id="shop-dp" onerror="this.src='./assets/products.png'" src="./uploads/shop_images/shop_dp/<?php echo $shopData['dp_logo'];?>" alt="">
+                        <img id="shop-dp" onerror="this.src='./assets/product.jpg'" src="./uploads/shop_images/shop_dp/<?php echo $shopData['dp_logo'];?>" alt="">
                     </div>
                     <div class="right col-md-8">
                         <div class="shop-details">
@@ -86,7 +86,7 @@ $productByShopId = getProductByShopId($shopID);
                             <li class='card col-md-3'>
                                 <div class='product-tile'>
                                 <div class="f-card-boader">
-                                    <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $productByShopId[$besD][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $productByShopId[$besD][0]?>'>
+                                    <img class='card-img-top' onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $productByShopId[$besD][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $productByShopId[$besD][0]?>'>
                                     <div class='card-body'>
                                         <h5 class='card-title'><?php echo $productByShopId[$besD][1]?></h5>
                                         <h6>Rs. <span class='card-price'><?php echo number_format((float)$productByShopId[$besD][3], 2, '.', ',');?></span></h6>

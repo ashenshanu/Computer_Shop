@@ -21,7 +21,7 @@ if(isset($_SESSION["user"])){
 <nav id="nav">
         <div class="container">
             <a href="index.php">
-            <img src="./assets/sanakin-logo.png" id="nav-logo" alt="Mr.PC" srcset="">
+            <img src="./assets/Mr.PC.png" id="nav-logo" alt="Mr.PC" srcset="">
             </a>
 
             <ul class="nav-items">
@@ -60,7 +60,7 @@ if(isset($_SESSION["user"])){
 
                     ?>
                     <div id="nav-sign" style="cursor: pointer" onclick="location.href='./shopper/admin-shopper.php'">
-                        <img style="width: 40px; height: 40px; border-radius: 100%; object-fit: cover;" onerror="this.src='./assets/products.png'" src='./uploads/user_images/<?php echo $_SESSION['user']['dp_img']?>' alt='Card image cap'>
+                        <img style="width: 40px; height: 40px; border-radius: 100%; object-fit: cover;" onerror="this.src='./assets/product.jpg'" src='./uploads/user_images/<?php echo $_SESSION['user']['dp_img']?>' alt='Card image cap'>
                         <h6 style="margin: 0px;">Welcome, <?php echo $_SESSION['user']['first_name'] ?></h6>
                     </div>
 
@@ -69,7 +69,7 @@ if(isset($_SESSION["user"])){
 
                     ?>
                     <div id="nav-sign" style="cursor: pointer" onclick="location.href='./customer/customer-orders.php'">
-                        <img style="width: 40px; height: 40px; border-radius: 100%; object-fit: cover;" onerror="this.src='./assets/products.png'" src='./uploads/user_images/<?php echo $_SESSION['user']['dp_img']?>' alt='Card image cap'>
+                        <img style="width: 40px; height: 40px; border-radius: 100%; object-fit: cover;" onerror="this.src='./assets/product.jpg'" src='./uploads/user_images/<?php echo $_SESSION['user']['dp_img']?>' alt='Card image cap'>
                         <h6 style="margin: 0px;">Welcome, <?php echo $_SESSION['user']['first_name'] ?></h6>
                     </div>
 
@@ -78,7 +78,7 @@ if(isset($_SESSION["user"])){
 
                     ?>
                     <div id="nav-sign" style="cursor: pointer; display: flex; flex-direction: row; gap:10px;" onclick="location.href='./admin/admin-dashboard.php'">
-                        <img style="width: 40px; height: 40px; border-radius: 100%; object-fit: cover;" onerror="this.src='./assets/products.png'" src='./uploads/user_images/<?php echo $_SESSION['user']['dp_img']?>' alt='Card image cap'>
+                        <img style="width: 40px; height: 40px; border-radius: 100%; object-fit: cover;" onerror="this.src='./assets/product.jpg'" src='./uploads/user_images/<?php echo $_SESSION['user']['dp_img']?>' alt='Card image cap'>
                         <h6 style="margin: 0px;">Welcome, <?php echo $_SESSION['user']['first_name'] ?></h6>
                     </div>
 

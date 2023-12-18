@@ -7,12 +7,12 @@
     padding: 0;
 }
 :root {
-    --green: #FF9C00;
-    --hover-green: #ffac27;
+    --green: #28D764;
+    --hover-green: #2ca62c;
     --white: #ffffff;
     --grey: #282828;
     --light-grey: #DCDCDC;
-    --tab-green: #FFE0AF;
+    --tab-green: #bcffaf;
     --light-green: #B3F594;
     --red: #DD3A3A;
 }

@@ -19,7 +19,7 @@
 
                         ?>
                                     <div class="product-card">
-                                        <img src="./assets/products.png" alt="">
+                                        <img src="./assets/product.jpg" alt="">
                                         <div class="product-info">
                                             <h5 class="product-name"><?php echo $cartProductList[$i]["product"]["product_name"] ?></h5>
 

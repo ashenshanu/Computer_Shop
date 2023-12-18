@@ -5,7 +5,7 @@
                 <div class="row body-top ">
                     <div class="col-4 img-sec" id="shop_img">
 
-                        <img src="../assets/products.png" alt="">
+                        <img src="../assets/product.jpg" alt="">
                     </div>
                     <div class="col-8">
                         <div style="display: flex;flex-direction: row;justify-content: space-between;align-items: flex-start">

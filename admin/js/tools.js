@@ -364,7 +364,7 @@ function openOrderItemModal(jsonData) {
                     itemListHtml += "<div class=\"product-card\">\n" +
                         "\n" +
                         "                                <div class=\"product\">\n" +
-                        "                                    <img src=\"./../assets/products.png\" alt=\"\">\n" +
+                        "                                    <img src=\"./../assets/product.jpg\" alt=\"\">\n" +
                         "                                    <div class=\"name\">\n" +
                         "                                        <h5 id=\"name\">"+productRow.product_name+"</h5>\n" +
                         "                                        <label for=\"\">Per.price - Rs. <span>"+productRow.per_price+"</span></label>\n" +
@@ -442,7 +442,7 @@ function openAccountViewModal(jsonData) {
                     itemListHtml += "<div class=\"product-card\">\n" +
                         "\n" +
                         "                                <div class=\"product\">\n" +
-                        "                                    <img src=\"./../assets/products.png\" alt=\"\">\n" +
+                        "                                    <img src=\"./../assets/product.jpg\" alt=\"\">\n" +
                         "                                    <div class=\"name\">\n" +
                         "                                        <h5 id=\"name\">"+productRow.product_name+"</h5>\n" +
                         "                                        <label for=\"\">Per.price - Rs. <span>"+productRow.per_price+"</span></label>\n" +
@@ -724,9 +724,9 @@ function openUserAccountModal(jsonData) {
         let userInfo = JSON.parse(fixData);
         console.log(userInfo);
         if(userInfo[0].dp_img != null){
-            acc_dp += "<img onerror=\"this.src='../assets/products.png'\" src=\"../uploads/user_images/"+userInfo[0].dp_img+"\" alt=\"\">";
+            acc_dp += "<img onerror=\"this.src='../assets/product.jpg'\" src=\"../uploads/user_images/"+userInfo[0].dp_img+"\" alt=\"\">";
         }else {
-            acc_dp += "<img src=\"../assets/products.png\" alt=\"\">";
+            acc_dp += "<img src=\"../assets/product.jpg\" alt=\"\">";
         }
 
         if (userInfo[0].acc_type === 'SHOPPER'){
@@ -839,9 +839,9 @@ function openProductModal(jsonData) {
         let proInfo = JSON.parse(fixData);
         console.log(proInfo);
         if(proInfo[0].image_url != null){
-            pro_dp += "<img onerror=\"this.src='../assets/products.png'\" src=\"../uploads/product_images/"+proInfo[0].image_url+"\" alt=\"\">";
+            pro_dp += "<img onerror=\"this.src='../assets/product.jpg'\" src=\"../uploads/product_images/"+proInfo[0].image_url+"\" alt=\"\">";
         }else {
-            pro_dp += "<img src=\"../assets/products.png\" alt=\"\">";
+            pro_dp += "<img src=\"../assets/product.jpg\" alt=\"\">";
         }
 
         let sold = "0";
@@ -931,9 +931,9 @@ function openShopModal(jsonData) {
         let shopInfo = JSON.parse(fixData);
         console.log(shopInfo);
         if(shopInfo[0].dp_logo != null){
-            shop_dp += "<img onerror=\"this.src='../assets/products.png'\" src=\"../uploads/shop_images/"+shopInfo[0].dp_logo+"\" alt=\"\">";
+            shop_dp += "<img onerror=\"this.src='../assets/product.jpg'\" src=\"../uploads/shop_images/"+shopInfo[0].dp_logo+"\" alt=\"\">";
         }else {
-            shop_dp += "<img src=\"../assets/products.png\" alt=\"\">";
+            shop_dp += "<img src=\"../assets/product.jpg\" alt=\"\">";
         }
 
         address +=""+shopInfo[0].address+"<br>"+shopInfo[0].city+"<br>"+shopInfo[0].zip_code+" ";

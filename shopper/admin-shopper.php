@@ -48,7 +48,7 @@
                             for ($s = 0; $s < count($shopList); $s++) {
                     ?>
                                 <div class="tile" onclick="setShopSession('<?php echo $shopList[$s][0] ?>')">
-                                    <img onerror="this.src='../assets/products.png'" src="../uploads/shop_images/shop_dp/<?php echo $shopList[$s][8];?>"  alt="">
+                                    <img onerror="this.src='../assets/product.jpg'" src="../uploads/shop_images/shop_dp/<?php echo $shopList[$s][8];?>"  alt="">
                                     <h4><?php echo $shopList[$s][1] ?></h4>
                                 </div>
 

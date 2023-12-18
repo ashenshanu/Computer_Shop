@@ -37,7 +37,7 @@ $productCat = getCategoryById($productData[0][8]);
         <div class="row">
             <div class="col-md-5">
                 <div class="product-img">
-                    <img onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $productData[0][10]?>' alt="">
+                    <img onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $productData[0][10]?>' alt="">
                 </div>
             </div>
             <div class="info-side col-md-7">
@@ -85,7 +85,7 @@ $productCat = getCategoryById($productData[0][8]);
                     <div class='card col-md-4'>
                         <div class='product-tile'>
                         <div class="f-card-boader">
-                            <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $categorizedList[$pro][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $categorizedList[$pro][0] ?>'>
+                            <img class='card-img-top' onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $categorizedList[$pro][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $categorizedList[$pro][0] ?>'>
                             <div class='card-body'>
                                 <h5 class='card-title'><?php echo $categorizedList[$pro][1] ?></h5>
                                 <h6>Rs. <span class='card-price'><?php echo number_format((float)$categorizedList[$pro][3], 2, '.', ',');?></span></h6>

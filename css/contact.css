@@ -62,9 +62,9 @@ section::before
     /*box-shadow: 0 50px 50px rgb(0,0,0,0.25);*/
     border-radius: 20px;
     border: solid;
-    border-color: #FF9C00;
+    border-color: #28D764;
     background: #FFFFFF;
-    border: 6px solid #FF9C00;
+    border: 6px solid #28D764;
     /*box-shadow: inset 0px 4px 4px rgba(248, 239, 22, 0.25);*/
     border-radius: 20px;
 }

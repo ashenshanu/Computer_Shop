@@ -55,7 +55,7 @@
 </style>
 <body>
     <div class="error-panel">
-        <img id="nav-logo" class="error-page-logo" src="./assets/sanakin-logo.png" alt="">
+        <img id="nav-logo" class="error-page-logo" src="./assets/Mr.PC.png" alt="">
 
         <img src="./assets/error.gif" alt="">
         <p class="title">this in building progress </p>

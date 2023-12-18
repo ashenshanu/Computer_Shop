@@ -59,7 +59,7 @@ if($_GET["san-rest-pa"] != null && strlen($_GET["san-rest-pa"]) > 3) {
 
 <body class="sign-up-canvas reset-page">
     <nav class="top-nav">
-        <img class="logo" src="./assets/sanakin-logo.png" alt="">
+        <img class="logo" src="./assets/Mr.PC.png" alt="">
     </nav>
     <div class="container">
         <?php if($isExpired){?>

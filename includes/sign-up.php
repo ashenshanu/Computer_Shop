@@ -4,7 +4,7 @@
             <button type="button" class="btn-close text-reset" onclick="location.reload()" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <nav class="top-nav">
-            <img class="logo" src="./assets/sanakin-logo.png" alt="">
+            <img class="logo" src="./assets/Mr.PC.png" alt="">
         </nav>
         <div class="offcanvas-body">
 

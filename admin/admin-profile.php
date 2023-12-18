@@ -39,7 +39,7 @@
         <div class="section">
             <div class="row">
                 <div class="col-4 firstcol">
-                    <img class="dp-img" onerror="this.src='../assets/products.png'" src="../uploads/user_images/<?php echo $user[0]['dp_img']; ?>" alt="">
+                    <img class="dp-img" onerror="this.src='../assets/product.jpg'" src="../uploads/user_images/<?php echo $user[0]['dp_img']; ?>" alt="">
                     <input type="button" onclick="$('#user-settings-modal').modal('show');" class="btn primary" style="width: 300px;" value="Settings">
                 </div>
                 <div class="col-4 secondcol">

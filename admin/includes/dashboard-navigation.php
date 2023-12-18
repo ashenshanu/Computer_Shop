@@ -22,7 +22,7 @@ if (!isset($_SESSION["user"])) {
 <nav class="col-md-2" style="position:sticky; z-index: 100;">
     <div class="nav-shopper nav-admin" style="position:fixed; width:250px">
         <div class="nav-top">
-            <img class="logo" src="../assets/sanakin-logo.png" style="cursor: pointer" onclick="location.href='../index.php'" alt="">
+            <img class="logo" src="../assets/Mr.PC.png" style="cursor: pointer" onclick="location.href='../index.php'" alt="">
             <ul class="nav-list">
                 <li onclick="window.location.href ='./admin-dashboard.php'">
                     <div id="dashboard">
@@ -78,7 +78,7 @@ if (!isset($_SESSION["user"])) {
             <div class="profile-sec">
                 <p class="sec-title">PROFILE</p>
                 <div class="card-thumb" id="shopper-profile" onclick="location.href='./admin-profile.php'">
-                    <img onerror="this.src='../assets/products.png'" src="../uploads/user_images/<?php echo  $loggedUser['dp_img']; ?>" alt="">
+                    <img onerror="this.src='../assets/product.jpg'" src="../uploads/user_images/<?php echo  $loggedUser['dp_img']; ?>" alt="">
                     <span>
                         <h6><?php echo $loggedUser["first_name"] ?></h6>
                         <span class="orange-text">

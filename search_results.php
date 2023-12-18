@@ -111,7 +111,7 @@ include "./controller/shop_controller.php";
                                                     <div class='col-md-3'>
                                                         <div class='card'
                                                              onclick=location.href='./shop-profile.php?id=<?php echo $shopResult[$shp][0] ?>'>
-                                                            <img class='shop-profile' onerror="this.src='./assets/products.png'" src='./uploads/shop_images/shop_dp/<?php echo $shopResult[$shp][8]?>' alt=''>
+                                                            <img class='shop-profile' onerror="this.src='./assets/product.jpg'" src='./uploads/shop_images/shop_dp/<?php echo $shopResult[$shp][8]?>' alt=''>
                                                             <div class='text'>
                                                                 <h5 class='shop-name'><?php echo $shopResult[$shp][1] ?></h5>
                                                                 <h6><span id='product-count'></span> Products</h6>
@@ -142,7 +142,7 @@ include "./controller/shop_controller.php";
                             <li class='card col-md-3'>
                                 <div class='product-tile'>
                                 <div class="f-card-boader">
-                                    <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $productResult[$p][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $productResult[$p][0]?>'>
+                                    <img class='card-img-top' onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $productResult[$p][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $productResult[$p][0]?>'>
                                     <div class='card-body'>
                                         <h5 class='card-title'><?php echo $productResult[$p][1] ?></h5>
                                         <h6>Rs. <span class='card-price'><?php echo $productResult[$p][3] ?></span>

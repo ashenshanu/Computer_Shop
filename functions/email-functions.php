@@ -28,7 +28,7 @@ function emailVerificationSend($toEmail){
             <td style='text-align: center; font-family: 'Manrope', sans-serif;'>
               <table style='margin: auto;'>
                 <tr>
-                  <td style='text-align:center;'><img src='http://sanakin-lk.000webhostapp.com/assets/sanakin-logo.png' style='width: 200px; margin-top: 30px;' alt='Mr.PC'></td>
+                  <td style='text-align:center;'><img src='http://sanakin-lk.000webhostapp.com/assets/Mr.PC.png' style='width: 200px; margin-top: 30px;' alt='Mr.PC'></td>
                 </tr>
                 <tr>
                   <td style='text-align:center;font-size: 36px; font-weight: bold; color: #000000;'>Verify Your Email</td>
@@ -126,7 +126,7 @@ function fogetPasswordVerificationSend($toEmail,$resetLink){
               <td style='text-align: center; font-family: 'Manrope', sans-serif;'>
                 <table style='margin: auto;'>
                   <tr>
-                    <td><img src='http://sanakin-lk.000webhostapp.com/assets/sanakin-logo.png' style='width: 200px; margin-top: 30px;' alt='Mr.PC'></td>
+                    <td><img src='http://sanakin-lk.000webhostapp.com/assets/Mr.PC.png' style='width: 200px; margin-top: 30px;' alt='Mr.PC'></td>
                   </tr>
                   <tr>
                     <td style='font-size: 36px; font-weight: bold; color: #000000;'>Reset Password<br>Verification</td>

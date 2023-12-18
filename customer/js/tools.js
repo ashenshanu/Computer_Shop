@@ -347,7 +347,7 @@ function openOrderItemModal(jsonData,status,deCode,orderNumber,total,msg,orderId
                     itemListHtml += "<div class=\"product-card\">\n" +
                         "\n" +
                         "                                <div class=\"product\">\n" +
-                        "                                    <img src=\"./../assets/products.png\" alt=\"\">\n" +
+                        "                                    <img src=\"./../assets/product.jpg\" alt=\"\">\n" +
                         "                                    <div class=\"name\">\n" +
                         "                                        <h5 id=\"name\">"+productRow.product_name+"</h5>\n" +
                         "                                        <label for=\"\">Unit - Rs. <span>"+productRow.per_price+"</span></label>\n" +

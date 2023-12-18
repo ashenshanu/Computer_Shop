@@ -173,7 +173,7 @@ include "./controller/shop_controller.php";
                             <li class='card col-md-4'>
                                 <div class='product-tile'>
                                 <div class="f-card-boader">
-                                    <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $categorizedList[$p][10]?>' alt='Card image cap'
+                                    <img class='card-img-top' onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $categorizedList[$p][10]?>' alt='Card image cap'
                                          onclick=location.href='./single-product.php?id=<?php echo $categorizedList[$p][0] ?>'>
                                     <div class='card-body'>
                                         <h5 class='card-title'><?php echo $categorizedList[$p][1] ?></h5>

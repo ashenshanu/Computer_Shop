@@ -10,7 +10,7 @@
     <title>Mr.PC | Trusted Shops</title>
 </head>
 <section id="loader" style="position:fixed; width:100vw; height:100vh; z-index:10000; display:flex; flex-direction:column; justify-content:center; align-items:center; background:#ffffff;">
-    <img src="./assets/sanakin-logo.png"  style="margin-bottom: 20px; width:40vW;" alt="">
+    <img src="./assets/Mr.PC.png"  style="margin-bottom: 20px; width:40vW;" alt="">
     <div class="spinner-grow text-warning" role="status">
         <span class="visually-hidden">Loading...</span>
     </div>
@@ -65,7 +65,7 @@ include "./controller/shop_controller.php";
             <div class="feature-cards">
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/products.png">
+                        <img class="f-img" src="./assets/product.jpg">
         				<h3> Second Hand </h3>
         				<p> If you wants to second hand good conditions dekstop and laptop</p>
                     </div>
@@ -73,7 +73,7 @@ include "./controller/shop_controller.php";
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/products.png">
+                        <img class="f-img" src="./assets/product.jpg">
         				<h3> Second Hand </h3>
         				<p> If you wants to second hand good conditions dekstop and laptop</p>
                     </div>
@@ -81,7 +81,7 @@ include "./controller/shop_controller.php";
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/products.png">
+                        <img class="f-img" src="./assets/product.jpg">
         				<h3> Second Hand </h3>
         				<p> If you wants to second hand good conditions dekstop and laptop</p>
                     </div>
@@ -89,7 +89,7 @@ include "./controller/shop_controller.php";
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/products.png">
+                        <img class="f-img" src="./assets/product.jpg">
         				<h3> Second Hand </h3>
         				<p> If you wants to second hand good conditions dekstop and laptop</p>
                     </div>
@@ -97,7 +97,7 @@ include "./controller/shop_controller.php";
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/products.png">
+                        <img class="f-img" src="./assets/product.jpg">
         				<h3> Second Hand </h3>
         				<p> If you wants to second hand good conditions dekstop and laptop</p>
                     </div>
@@ -105,7 +105,7 @@ include "./controller/shop_controller.php";
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/products.png">
+                        <img class="f-img" src="./assets/product.jpg">
         				<h3> Second Hand </h3>
         				<p> If you wants to second hand good conditions dekstop and laptop</p>
                     </div>
@@ -133,7 +133,7 @@ include "./controller/shop_controller.php";
                         <div class='card col-md-4'>
                             <div class='product-tile'>
                                 <div class="f-card-boader">
-                                <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $bestDealList[$besD][10]?>' alt='Card image cap'
+                                <img class='card-img-top' onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $bestDealList[$besD][10]?>' alt='Card image cap'
                                      onclick=location.href='./single-product.php?id=<?php echo $bestDealList[$besD][0]?>'>
                                 <div class='card-body'>
                                     <h5 class='card-title'><?php echo $bestDealList[$besD][1]?></h5>
@@ -192,7 +192,7 @@ include "./controller/shop_controller.php";
                         <div class='card col-md-4'>
                             <div class='product-tile' >
                             <div class="f-card-boader">
-                                <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $mostPopularList[$besD][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $mostPopularList[$besD][0]?>'>
+                                <img class='card-img-top' onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $mostPopularList[$besD][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $mostPopularList[$besD][0]?>'>
                                 <div class='card-body'>
                                     <h5 class='card-title'><?php echo $mostPopularList[$besD][1]?></h5>
                                     <h6>Rs. <span class='card-price'><?php echo number_format((float)$mostPopularList[$besD][3], 2, '.', ',');?></span></h6>
@@ -305,7 +305,7 @@ include "./controller/shop_controller.php";
                                 <div class='card col-md-4'>
                                     <div class='product-tile'>
                                         <div class="f-card-boader">
-                                        <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $categorizedList[$pro][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $categorizedList[$pro][0] ?>'>
+                                        <img class='card-img-top' onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $categorizedList[$pro][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $categorizedList[$pro][0] ?>'>
                                         <div class='card-body'>
                                             <h5 class='card-title'><?php echo $categorizedList[$pro][1] ?></h5>
                                             <h6>Rs. <span class='card-price'><?php echo number_format((float)$categorizedList[$pro][3], 2, '.', ',');?></span></h6>

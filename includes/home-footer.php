@@ -2,7 +2,7 @@
     <div class="container py-4">
         <div class="row gy-4 gx-5">
             <div class="col-lg-4 col-md-6 text-muted">
-                <img src="./assets/sanakin-logo.png" alt="" onclick="location.href='./index.php'" srcset="">
+                <img src="./assets/Mr.PC.png" alt="" onclick="location.href='./index.php'" srcset="">
                 <!-- <h5 class="h1 text-white">FB.</h5> -->
                 <p class="medium text-muted">Sanakin is the best online platform for you, Join us today & Experience the best online shopping experience with us.</p>
                 <h5 class="mb-3 sub-sec-title">Contact Us</h5>

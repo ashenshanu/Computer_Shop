@@ -40,7 +40,7 @@
                             <div class="table" id="item-list-container">
                                 <div class="product-card">
                                     <div class="product">
-                                        <img src="./../assets/products.png" alt="">
+                                        <img src="./../assets/product.jpg" alt="">
                                         <div class="name">
                                             <h6 id="name">product name</h6>
                                             <div class="card-bottom">

@@ -43,7 +43,7 @@ function shopperLogin($email, $password){
             if($row["acc_status"] == 'BANNED'){
 //                $sendOnj = [
 //                    'status' => "BANNED ACCOUNT",
-//                    'msg' => "You are temporarily banned from sanakin.lk. contact our administration."
+//                    'msg' => "You are temporarily banned from Mr.PC. contact our administration."
 //                ];
                 return false;
             }else if (password_verify($password, $hashed_password)) {

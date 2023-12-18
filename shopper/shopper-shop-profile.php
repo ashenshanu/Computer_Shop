@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="./css/shopper-main.css">
-    <title>Shop Profile | Sanakin.lk</title>
+    <title>Shop Profile | Mr.PC</title>
 </head>
 
 <body>
@@ -40,7 +40,7 @@
         <div class="section proinfo-sec">
             
                 <div class="sub-sec firstcol">
-                    <img class="dp-img" onerror="this.src='../assets/products.png'" src="../uploads/shop_images/shop_dp/<?php echo $shop['dp_logo'];?>" alt="">
+                    <img class="dp-img" onerror="this.src='../assets/product.jpg'" src="../uploads/shop_images/shop_dp/<?php echo $shop['dp_logo'];?>" alt="">
                     <input type="button" onclick="$('#shop-settings-modal').modal('show');" class="btn primary" style="width: 300px;" value="Settings">
                 </div>
                 <div class="sub-sec secondcol">

@@ -5,18 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
-     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
-    <title>Sanakin.LK | Trusted Shops</title>
+    <title>Mr.PC | Trusted Shops</title>
 </head>
 <?php
 require_once "./configs/config.php";
- 
-include "./includes/home-header.php";
+include "./includes/home-navigation.php";
+// include "./includes/home-header.php";
 
 require_once "./connectors/db-connector.php";
 
@@ -92,13 +89,13 @@ $categoryList = getAllCategories();
             <div class="col-3 detail-box">
                 <i class="bi bi-envelope con"></i>
                 <h5>Email</h5>
-                <p class="con-p"><a href="mailto:info@sanakin.lk">info@sanakin.lk</a></p>
+                <p class="con-p"><a href="mailto:infomrpc">infomrpc</a></p>
             </div>
         </div>
     </div>
 
 </section>
-    <?php include "./includes/footer.php"; ?>
+    <?php include "./includes/home-footer.php"; ?>
     <?php include "./includes/home-modals-mapping.php"; ?>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>

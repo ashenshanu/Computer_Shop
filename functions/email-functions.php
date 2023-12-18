@@ -10,7 +10,7 @@ function emailVerificationSend($toEmail){
     //var_dump($genCode);
 
     $to = $toEmail;
-    $subject = "Email Verification Code from Sanakin.lk";
+    $subject = "Email Verification Code from Mr.PC";
     $code = $genCode;
     $_SESSION['verifyingCode'] = $code;
     $arrayDigits = str_split($code);
@@ -28,7 +28,7 @@ function emailVerificationSend($toEmail){
             <td style='text-align: center; font-family: 'Manrope', sans-serif;'>
               <table style='margin: auto;'>
                 <tr>
-                  <td style='text-align:center;'><img src='http://sanakin-lk.000webhostapp.com/assets/sanakin-logo.png' style='width: 200px; margin-top: 30px;' alt='sanakin.lk'></td>
+                  <td style='text-align:center;'><img src='http://sanakin-lk.000webhostapp.com/assets/Mr.PC.png' style='width: 200px; margin-top: 30px;' alt='Mr.PC'></td>
                 </tr>
                 <tr>
                   <td style='text-align:center;font-size: 36px; font-weight: bold; color: #000000;'>Verify Your Email</td>
@@ -38,7 +38,7 @@ function emailVerificationSend($toEmail){
                 </tr>
                 <tr style='margin-top: 30px;'>
                   <td style='width: 512px; font-size: 16px;font-weight: 500; text-align: left;'>
-                    Thanks for registering an account with <a href='#' style='color: #FF9C00;text-decoration: none;'>Sanakin.lk!</a><br><br>
+                    Thanks for registering an account with <a href='#' style='color: #FF9C00;text-decoration: none;'>Mr.PC!</a><br><br>
                     Find you’r email Verification code and verify your email within 5 minutes. if failure to verify your email within the time duration you have to get a new code and try again.
                   </td>
                 </tr>
@@ -82,7 +82,7 @@ function emailVerificationSend($toEmail){
                 </tr>
                 <tr>
                   <td style='font-family: Manrope, sans-serif; font-size: 14px; text-align: center; color: gray;'>
-                    You have received this mandatory service announcement to update you about important changes to <a href='#' style='color: #FF9C00; text-decoration: none;'>Sanakin.lk</a> or your account.
+                    You have received this mandatory service announcement to update you about important changes to <a href='#' style='color: #FF9C00; text-decoration: none;'>Mr.PC</a> or your account.
                   </td>
                 </tr>
               </table>
@@ -111,7 +111,7 @@ function fogetPasswordVerificationSend($toEmail,$resetLink){
 
 
   $to = $toEmail;
-  $subject = "Reset Your Sanakin.lk Account Password";
+  $subject = "Reset Your Mr.PC Account Password";
   $body = "<!DOCTYPE html>
   <html lang='en'>
   <body style='width: 100%;'>
@@ -126,14 +126,14 @@ function fogetPasswordVerificationSend($toEmail,$resetLink){
               <td style='text-align: center; font-family: 'Manrope', sans-serif;'>
                 <table style='margin: auto;'>
                   <tr>
-                    <td><img src='http://sanakin-lk.000webhostapp.com/assets/sanakin-logo.png' style='width: 200px; margin-top: 30px;' alt='sanakin.lk'></td>
+                    <td><img src='http://sanakin-lk.000webhostapp.com/assets/Mr.PC.png' style='width: 200px; margin-top: 30px;' alt='Mr.PC'></td>
                   </tr>
                   <tr>
                     <td style='font-size: 36px; font-weight: bold; color: #000000;'>Reset Password<br>Verification</td>
                   </tr>
                   <tr style='margin-top: 30px;'>
                     <td style='width: 512px; font-size: 16px;font-weight: 500; text-align: left;'>
-                      Please use this link to reset the password for the <a href='#' style='color: #FF9C00;text-decoration: none;'>Sanakin.lk!</a> Account. 
+                      Please use this link to reset the password for the <a href='#' style='color: #FF9C00;text-decoration: none;'>Mr.PC!</a> Account. 
                     </td>
                   </tr>
                   <tr>
@@ -143,7 +143,7 @@ function fogetPasswordVerificationSend($toEmail,$resetLink){
                   </tr>
                   <tr style='margin-top: 40px;margin-bottom: 30px;'>
                     <td style='text-align: left;'>
-                      Thanks,<br>The Sanakin.lk Team 
+                      Thanks,<br>The Mr.PC Team 
                     </td>
                   </tr>
                 </table>
@@ -157,7 +157,7 @@ function fogetPasswordVerificationSend($toEmail,$resetLink){
                   </tr>
                   <tr>
                     <td style='font-family: 'Manrope', sans-serif; font-size: 14px; text-align: center; color: gray;'>
-                      You have received this mandatory service announcement to update you about important changes to <a href='#' style='color: #FF9C00; text-decoration: none;'>Sanakin.lk</a> or your account.
+                      You have received this mandatory service announcement to update you about important changes to <a href='#' style='color: #FF9C00; text-decoration: none;'>Mr.PC</a> or your account.
                     </td>
                   </tr>
                 </table>

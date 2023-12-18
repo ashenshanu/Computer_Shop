@@ -6,19 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
-     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
-    <title>Sanakin.LK | Trusted Shops</title>
+    <title>Mr.PC | Trusted Shops</title>
 </head>
 <?php 
 require_once "./connectors/db-connector.php";
 require_once "./configs/config.php";
 
-  
-include './includes/header.php';
+include "./includes/home-navigation.php"; 
+// include "./includes/home-header.php";
 
 
 include "./controller/product_controller.php";
@@ -45,6 +42,7 @@ include "./controller/shop_controller.php";
 <body>
 
     <div class="section hero2-sec">
+        <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -66,14 +64,24 @@ include "./controller/shop_controller.php";
                     <div class="row hero-content">
                         <h1 class="main-title page-title">Shop Online</h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-
+<!--                        <div class="search-bar">-->
+<!--                            <input type="search" class="search" name="Search" placeholder="Search Here Shop or Product" id="search_head" onkeyup="handleSearchFiled(event)">-->
+<!--                            <input type="button" id="search-btn" class="search-btn btn primary" value="Search" onclick="handleSearchButton(document.getElementById('search_head').value)">-->
+<!--                        </div>-->
 
                     </div>
 
                 </div>
-
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
             </div>
-
+        </div>
     </div>
 
     <div class="section products">
@@ -164,7 +172,8 @@ include "./controller/shop_controller.php";
                             ?>
                             <li class='card col-md-4'>
                                 <div class='product-tile'>
-                                    <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $categorizedList[$p][10]?>' alt='Card image cap'
+                                <div class="f-card-boader">
+                                    <img class='card-img-top' onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $categorizedList[$p][10]?>' alt='Card image cap'
                                          onclick=location.href='./single-product.php?id=<?php echo $categorizedList[$p][0] ?>'>
                                     <div class='card-body'>
                                         <h5 class='card-title'><?php echo $categorizedList[$p][1] ?></h5>
@@ -172,6 +181,7 @@ include "./controller/shop_controller.php";
                                         </h6>
                                         <input type='button' class='btn primary' value='Add to Cart' onclick="addtoCart('<?php echo $categorizedList[$p][0]?>',1)" <?php echo $addCart?>>
                                     </div>
+                                </div>
                                 </div>
                             </li>
                             <?php
@@ -200,15 +210,13 @@ include "./controller/shop_controller.php";
 
         </div>
     </div>
-    <?php include "./includes/footer.php"; ?>
+    <?php include "./includes/home-footer.php"; ?>
     <?php include "./includes/home-modals-mapping.php"; ?>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/tools.js"></script>
     <script src="./js/product-pagination.js"></script>
     <script src="./js/cart.js"></script>
-    
-	<?php include "./includes/com_links.php"; ?>
     <script>
        document.getElementById('shop-online-page').classList.add('selected');
 

@@ -12,7 +12,7 @@ include "../controller/shop_controller.php";
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
-        <title>Sanakin.lk</title>
+        <title>Mr.PC</title>
     </head>
 <body>
     <header id="top_header">
@@ -61,7 +61,7 @@ include "../controller/shop_controller.php";
             var xhttp = new XMLHttpRequest();
             xhttp.open("POST", "../functions/api.php", true);
             xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-            xhttp.setRequestHeader("application-auth", "sanakin-auth");
+            xhttp.setRequestHeader("application-auth", "computershop-auth");
 
             xhttp.onreadystatechange = function() {
                 if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {

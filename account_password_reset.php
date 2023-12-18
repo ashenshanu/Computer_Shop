@@ -52,17 +52,14 @@ if($_GET["san-rest-pa"] != null && strlen($_GET["san-rest-pa"]) > 3) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
-     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
     <title>Reset Account Password</title>
 </head>
 
 <body class="sign-up-canvas reset-page">
     <nav class="top-nav">
-        <img class="logo" src="./assets/sanakin-logo.png" alt="">
+        <img class="logo" src="./assets/Mr.PC.png" alt="">
     </nav>
     <div class="container">
         <?php if($isExpired){?>
@@ -140,7 +137,7 @@ if($_GET["san-rest-pa"] != null && strlen($_GET["san-rest-pa"]) > 3) {
             var xhttp = new XMLHttpRequest();
             xhttp.open("POST", "functions/api.php", true);
             xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-            xhttp.setRequestHeader("application-auth", "sanakin-auth");
+            xhttp.setRequestHeader("application-auth", "computershop-auth");
 
             xhttp.onreadystatechange = function() {
                 if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {

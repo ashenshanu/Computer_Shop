@@ -6,20 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
-     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
-    <title>Sanakin.LK | Trusted Shops</title>
+    <title>Mr.PC | Trusted Shops</title>
 </head>
 <?php
 
 require_once "./connectors/db-connector.php";
 require_once "./configs/config.php";
 
- 
-include "./includes/home-header.php";
+include "./includes/home-navigation.php";
+// include "./includes/home-header.php";
 
 include "./controller/search_controller.php";
 
@@ -114,7 +111,7 @@ include "./controller/shop_controller.php";
                                                     <div class='col-md-3'>
                                                         <div class='card'
                                                              onclick=location.href='./shop-profile.php?id=<?php echo $shopResult[$shp][0] ?>'>
-                                                            <img class='shop-profile' onerror="this.src='./assets/products.png'" src='./uploads/shop_images/shop_dp/<?php echo $shopResult[$shp][8]?>' alt=''>
+                                                            <img class='shop-profile' onerror="this.src='./assets/product.jpg'" src='./uploads/shop_images/shop_dp/<?php echo $shopResult[$shp][8]?>' alt=''>
                                                             <div class='text'>
                                                                 <h5 class='shop-name'><?php echo $shopResult[$shp][1] ?></h5>
                                                                 <h6><span id='product-count'></span> Products</h6>
@@ -144,13 +141,15 @@ include "./controller/shop_controller.php";
                             ?>
                             <li class='card col-md-3'>
                                 <div class='product-tile'>
-                                    <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $productResult[$p][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $productResult[$p][0]?>'>
+                                <div class="f-card-boader">
+                                    <img class='card-img-top' onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $productResult[$p][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $productResult[$p][0]?>'>
                                     <div class='card-body'>
                                         <h5 class='card-title'><?php echo $productResult[$p][1] ?></h5>
                                         <h6>Rs. <span class='card-price'><?php echo $productResult[$p][3] ?></span>
                                         </h6>
                                         <input <?php echo $addCart?> type='button' class='btn primary' value='Add to Cart' onclick="addtoCart('<?php echo $productResult[$p][0]?>',1)">
                                     </div>
+                                </div>
                                 </div>
                             </li>
                             <?php
@@ -179,7 +178,7 @@ include "./controller/shop_controller.php";
 
         </div>
     </div>
-    <?php include "./includes/footer.php"; ?>
+    <?php include "./includes/home-footer.php"; ?>
     <?php include "./includes/home-modals-mapping.php"; ?>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>

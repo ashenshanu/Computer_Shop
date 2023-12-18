@@ -22,7 +22,7 @@ $body = "<!DOCTYPE html>
             <td style='text-align: center; font-family: 'Manrope', sans-serif;'>
               <table style='margin: auto;'>
                 <tr>
-                  <td style='text-align:center;'><img src='https://drive.google.com/uc?id=1PgV43MSYVk4-qN4HSjq9i3aRsJh_DvPU' style='width: 200px; margin-top: 30px;' alt='sanakin.lk'></td>
+                  <td style='text-align:center;'><img src='https://drive.google.com/uc?id=1PgV43MSYVk4-qN4HSjq9i3aRsJh_DvPU' style='width: 200px; margin-top: 30px;' alt='Mr.PC'></td>
                 </tr>
                 <tr>
                   <td style='text-align:center;font-size: 36px; font-weight: bold; color: #000000;'>Verify Your Email</td>
@@ -32,7 +32,7 @@ $body = "<!DOCTYPE html>
                 </tr>
                 <tr style='margin-top: 30px;'>
                   <td style='width: 512px; font-size: 16px;font-weight: 500; text-align: left;'>
-                    Thanks for registering an account with <a href='#' style='color: #FF9C00;text-decoration: none;'>Sanakin.lk!</a><br><br>
+                    Thanks for registering an account with <a href='#' style='color: #FF9C00;text-decoration: none;'>Mr.PC!</a><br><br>
                     Find you’r email Verification code and verify your email within 5 minutes. if failure to verify your email within the time duration you have to get a new code and try again.
                   </td>
                 </tr>
@@ -76,7 +76,7 @@ $body = "<!DOCTYPE html>
                 </tr>
                 <tr>
                   <td style='font-family: 'Manrope', sans-serif; font-size: 14px; text-align: center; color: gray;'>
-                    You have received this mandatory service announcement to update you about important changes to <a href='#' style='color: #FF9C00; text-decoration: none;'>Sanakin.lk</a> or your account.
+                    You have received this mandatory service announcement to update you about important changes to <a href='#' style='color: #FF9C00; text-decoration: none;'>Mr.PC</a> or your account.
                   </td>
                 </tr>
               </table>

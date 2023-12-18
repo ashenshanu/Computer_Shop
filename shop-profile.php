@@ -9,20 +9,17 @@ $shopID =$_GET['id'];
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
-     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
-    <title>Sanakin.LK | Trusted Shops</title>
+    <title>Mr.PC | Trusted Shops</title>
 </head>
 <?php
 
 require_once "./connectors/db-connector.php";
 require_once "./configs/config.php";
 
- 
-include "./includes/home-header.php";
+include "./includes/home-navigation.php";
+// include "./includes/home-header.php";
 
 include "./controller/product_controller.php";
 include "./controller/shop_controller.php";
@@ -38,12 +35,12 @@ $productByShopId = getProductByShopId($shopID);
         <div class="container">
             <div class="row">
                 <div class="shop-header col-md-12">
-                    <img id="shop-banner" onerror="this.src='./assets/products.png'" src="./uploads/shop_images/shop_banner/<?php echo $shopData['dp_banner'];?>" alt="">
+                    <img id="shop-banner" onerror="this.src='./assets/product.jpg'" src="./uploads/shop_images/shop_banner/<?php echo $shopData['dp_banner'];?>" alt="">
 
                 </div>
                 <div class="shop-info">
                     <div class="col-md-4">
-                        <img id="shop-dp" onerror="this.src='./assets/products.png'" src="./uploads/shop_images/shop_dp/<?php echo $shopData['dp_logo'];?>" alt="">
+                        <img id="shop-dp" onerror="this.src='./assets/product.jpg'" src="./uploads/shop_images/shop_dp/<?php echo $shopData['dp_logo'];?>" alt="">
                     </div>
                     <div class="right col-md-8">
                         <div class="shop-details">
@@ -88,12 +85,14 @@ $productByShopId = getProductByShopId($shopID);
                             ?>
                             <li class='card col-md-3'>
                                 <div class='product-tile'>
-                                    <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $productByShopId[$besD][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $productByShopId[$besD][0]?>'>
+                                <div class="f-card-boader">
+                                    <img class='card-img-top' onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $productByShopId[$besD][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $productByShopId[$besD][0]?>'>
                                     <div class='card-body'>
                                         <h5 class='card-title'><?php echo $productByShopId[$besD][1]?></h5>
                                         <h6>Rs. <span class='card-price'><?php echo number_format((float)$productByShopId[$besD][3], 2, '.', ',');?></span></h6>
                                         <input type='button' class='btn primary' value='Add to Cart' onclick="addtoCart('<?php echo $productByShopId[$besD][0]?>',1)" <?php echo $addCart?>>
                                     </div>
+                                </div>
                                 </div>
                             </li>
                             <?php
@@ -133,7 +132,7 @@ $productByShopId = getProductByShopId($shopID);
 
 
     <?php include "./includes/home-modals-mapping.php"; ?>
-    <?php include "./includes/footer.php"; ?>
+    <?php include "./includes/home-footer.php"; ?>
     <?php include "./modals/send-complaint.php"; ?>
     <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.js"></script>

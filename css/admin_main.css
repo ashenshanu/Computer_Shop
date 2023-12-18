@@ -13,9 +13,8 @@
     --nav-bg2-admin: #343331;
     --nav-select-bg-shop:#F2EEEA;
     --nav-text-shop:#626261;
-    --orange-text:#FF9C00;
+    --green-text:#28D764;
     --green: #28D764;
-    --light-orange: #FFE0AF;
     --white:#ffffff;
 
 }
@@ -79,7 +78,7 @@ body{
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    color: var(--orange-text);
+    color: var(--green-text);
     font-weight: 500;
     gap: 10px;
 }
@@ -98,7 +97,7 @@ body{
 }
 
 .nav-admin .nav-bottom .card-thumb{
-    background: var(--light-orange);
+    background: var(--light-green);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -111,7 +110,7 @@ body{
 }
 .nav-admin .nav-bottom .card-thumb span span{
     font-size: 14px;
-    color: var(--orange-text);
+    color: var(--green-text);
 }
 .nav-admin .nav-bottom .card-thumb img{
     border-radius: 100%;
@@ -177,7 +176,7 @@ font-weight: 500;
 }
 .tool-bar .btn {
     color: var(--white);
-    background: var(--orange-text);
+    background: var(--green-text);
     border-radius: 9px;
     padding: 5px 20px;
     display: flex;

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="./css/shopper-main.css">
-    <title>Profile | Sanakin.lk</title>
+    <title>Profile | Mr.PC</title>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
         <div class="section proinfo-sec">
             
                 <div class="sub-sec firstcol">
-                    <img class="dp-img" onerror="this.src='../assets/products.png'" src="../uploads/user_images/<?php echo $user[0]['dp_img'];?>" alt="">
+                    <img class="dp-img" onerror="this.src='../assets/product.jpg'" src="../uploads/user_images/<?php echo $user[0]['dp_img'];?>" alt="">
                     <input type="button" onclick="$('#user-settings-modal').modal('show');" class="btn primary" style="width: 300px;" value="Settings">
                 </div>
                 <div class="sub-sec secondcol">
@@ -90,7 +90,7 @@
                             for ($s = 0; $s < count($shopList); $s++) {
                     ?>
                                 <div class="tile" onclick="setShopSession('<?php echo $shopList[$s][0] ?>')">
-                                    <img onerror="this.src='../assets/products.png'" src="../uploads/shop_images/shop_dp/<?php echo $shopList[$s][8];?>"  alt="">
+                                    <img onerror="this.src='../assets/product.jpg'" src="../uploads/shop_images/shop_dp/<?php echo $shopList[$s][8];?>"  alt="">
                                     <h4><?php echo $shopList[$s][1] ?></h4>
                                 </div>
 

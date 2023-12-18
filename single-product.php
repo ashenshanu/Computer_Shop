@@ -8,12 +8,9 @@ $productID =$_GET['id'];
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
-     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
-    <title>Sanakin.LK | Trusted Shops</title>
+    <title>Mr.PC | Trusted Shops</title>
 
 </head>
 
@@ -22,8 +19,8 @@ $productID =$_GET['id'];
 require_once "./connectors/db-connector.php";
 require_once "./configs/config.php";
 
- 
-include "./includes/home-header.php";
+include "./includes/home-navigation.php";
+// include "./includes/home-header.php";
 
 include "./controller/product_controller.php";
 include "./controller/shop_controller.php";
@@ -40,7 +37,7 @@ $productCat = getCategoryById($productData[0][8]);
         <div class="row">
             <div class="col-md-5">
                 <div class="product-img">
-                    <img onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $productData[0][10]?>' alt="">
+                    <img onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $productData[0][10]?>' alt="">
                 </div>
             </div>
             <div class="info-side col-md-7">
@@ -85,14 +82,16 @@ $productCat = getCategoryById($productData[0][8]);
                 }
                 for ($pro = 0; $pro < $maxProduct; $pro++) {
                     ?>
-                    <div class='card col-md-3'>
+                    <div class='card col-md-4'>
                         <div class='product-tile'>
-                            <img class='card-img-top' onerror="this.src='./assets/products.png'" src='uploads/product_images/<?php echo $categorizedList[$pro][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $categorizedList[$pro][0] ?>'>
+                        <div class="f-card-boader">
+                            <img class='card-img-top' onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $categorizedList[$pro][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $categorizedList[$pro][0] ?>'>
                             <div class='card-body'>
                                 <h5 class='card-title'><?php echo $categorizedList[$pro][1] ?></h5>
                                 <h6>Rs. <span class='card-price'><?php echo number_format((float)$categorizedList[$pro][3], 2, '.', ',');?></span></h6>
                                 <input <?php echo $addCart?> type='button' class='btn primary' value='Add to Cart' onclick="addtoCart('<?php echo $categorizedList[$pro][0]?>',1)">
                             </div>
+                        </div>
                         </div>
                     </div>
                     <?php
@@ -114,7 +113,7 @@ $productCat = getCategoryById($productData[0][8]);
 
 
 
-    <?php include "./includes/footer.php"; ?>
+    <?php include "./includes/home-footer.php"; ?>
     <?php include "./modals/send-product_complaint.php"; ?>
     <?php include "./includes/home-modals-mapping.php"; ?>
     <script src="./js/bootstrap.js"></script>

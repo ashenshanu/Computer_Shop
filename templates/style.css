@@ -10,7 +10,7 @@
     --darkWhite: #ccc;
     --black: #000000;
     --dark: #615c60;
-    --themeColor: #FF9C00;
+    --themeColor: #28D764;
     --pageShadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
 }
 
@@ -86,7 +86,7 @@ body {
     left: 0;
     right: -100px;
     text-transform: uppercase;
-    background-color: #FF9C00;
+    background-color: #28D764;
     font: 26px;
     z-index: 3;
     position: absolute;

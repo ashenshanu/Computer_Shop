@@ -5,8 +5,8 @@ function getConnection(){
 
     $servername = "localhost";
     $username = "root";
-    $password = "123456";
-    $database = "sanakin_db";
+    $password = "";
+    $database = "mr_pc";
 
     $conn = new mysqli($servername, $username, $password, $database);
     try {

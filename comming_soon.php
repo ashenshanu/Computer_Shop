@@ -9,12 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="./css/bootstrap.css">
-     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
-    <title>Sanakin.lk - Commining Soon</title>
+    <title>Mr.PC - Commining Soon</title>
 </head>
 <style>
     *{
@@ -58,7 +55,7 @@
 </style>
 <body>
     <div class="error-panel">
-        <img id="nav-logo" class="error-page-logo" src="./assets/sanakin-logo.png" alt="">
+        <img id="nav-logo" class="error-page-logo" src="./assets/Mr.PC.png" alt="">
 
         <img src="./assets/error.gif" alt="">
         <p class="title">this in building progress </p>

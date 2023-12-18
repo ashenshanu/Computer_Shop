@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 <style>
     .back-btn {
-        background: #ffd088;
+        background: #c0ffaf;
         padding: 10px;
         border-radius: 100%;
         width: 40px;
@@ -17,7 +17,7 @@
 
     .back-btn:hover {
         background: #ffffff;
-        color: #ff9c00;
+        color: #2ca62c;
         transition: 0.3s;
     }
 </style>
@@ -26,7 +26,7 @@
     <div class="offcanvas offcanvas-end sign-in-canvas" tabindex="-1" id="sign-in-offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-body">
             <div class="canvas-left">
-                <img src="./assets/sanakin-logo.png" class="logo" alt="">
+                <img src="./assets/Mr.PC.png" class="logo" alt="">
                 <form class="sign-in-form sign-in1" id="sign-in1" action="" method="">
                     <div class="form-container">
                         <h3>Sign In</h3>
@@ -73,12 +73,10 @@
                 </form>
 
             </div>
-            <div class="canvas-right">
+            <div class="canvas-right" style="background:url('./assets/sign-in-wall.jpg')">
                 <div class="canvas-header">
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" onclick="resetCanvas()"></button>
                 </div>
-                <h4>“Shop without limits – anytime, anywhere!”</h4>
-                <img src="./assets/Gray.png" alt="" srcset="">
             </div>
         </div>
     </div>
@@ -103,7 +101,7 @@
         var xhttp = new XMLHttpRequest();
         xhttp.open("POST", "functions/api.php", true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xhttp.setRequestHeader("application-auth", "sanakin-auth");
+        xhttp.setRequestHeader("application-auth", "computershop-auth");
 
         xhttp.onreadystatechange = function() {
             if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {
@@ -132,7 +130,7 @@
         var xhttp = new XMLHttpRequest();
         xhttp.open("POST", "functions/api.php", true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xhttp.setRequestHeader("application-auth", "sanakin-auth");
+        xhttp.setRequestHeader("application-auth", "computershop-auth");
 
         xhttp.onreadystatechange = function() {
             if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {

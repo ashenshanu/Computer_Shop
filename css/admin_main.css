@@ -15,7 +15,6 @@
     --nav-text-shop:#626261;
     --green-text:#28D764;
     --green: #28D764;
-    --light-orange: #FFE0AF;
     --white:#ffffff;
 
 }
@@ -98,7 +97,7 @@ body{
 }
 
 .nav-admin .nav-bottom .card-thumb{
-    background: var(--light-orange);
+    background: var(--light-green);
     border-radius: 10px;
     display: flex;
     flex-direction: row;

@@ -128,8 +128,8 @@ body {
   box-sizing: border-box;
   position: absolute;
   height: 45px;
-  background: #FF9C00;
-  border: 1px solid #FF9C00;
+  background: #28D764;
+  border: 1px solid #28D764;
   border-radius: 10px;
   width: 75%;
 }
@@ -201,7 +201,7 @@ body {
 .modal-confirm .btn, .modal-confirm .btn:active {
 	color: #fff;
 	border-radius: 4px;
-	background: #FF9C00 !important;
+	background: #28D764 !important;
 	text-decoration: none;
 	transition: all 0.4s;
 	line-height: normal;
@@ -212,7 +212,7 @@ body {
 	border: none;
 }
 .modal-confirm .btn:hover, .modal-confirm .btn:focus {
-	background: #FF9C00 !important;
+	background: #28D764 !important;
 	outline: none;
 }
 .trigger-btn {

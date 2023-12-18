@@ -16,7 +16,7 @@
     --nav-select-bg-shop: #F2EEEA;
     --nav-text-shop: #626261;
     --green-text: #28D764;
-    --light-orange: #FFE0AF;
+    --light-green: #B3F594;
     --green: #28D764;
     --hover-green: #2ca62c;
     --white: #ffffff;
@@ -189,7 +189,7 @@ body {
     cursor: pointer;
 }
 .nav-admin .nav-bottom .card-thumb:hover {
-    background: var(--light-orange);
+    background: var(--light-green);
    transition: 0.3s;
 }
 
@@ -856,7 +856,7 @@ border-radius: 9px;
     padding-top: 10px;
 }
 .btn-card{
-    background-color: var(--light-orange);
+    background-color: var(--light-green);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1131,6 +1131,6 @@ border-radius: 9px;
     cursor: pointer;
 }
 .dropdown-menu .dropdown-item:hover{
-    background-color: var(--light-orange);
+    background-color: var(--light-green);
     transition: 0.3s;
 }

@@ -77,19 +77,19 @@ $categoryList = getAllCategories();
             <div class="col-3 detail-box">
                 <i class="bi bi-telephone con"></i>
                 <h5>Phone</h5>
-                <p class="con-p"><a class="" href="tel:+94763133646">0112345678</a></p>
+                <p class="con-p"><a class="" href="tel:+94756087339">0756087339</a></p>
             </div>
             <div class="col-3 detail-box">
                 <i class="bi bi-map con"></i>
                 <h5 >Address</h5>
-                <p class="con-p">123/S, Buddhaloka Mw,<br>
-                    Suwarapola,<br>
-                    Piliyandal</p>
+                <p class="con-p">79/7, Polhena,<br>
+                    Madapatha,<br>
+                    Piliyandala</p>
             </div>
             <div class="col-3 detail-box">
                 <i class="bi bi-envelope con"></i>
                 <h5>Email</h5>
-                <p class="con-p"><a href="mailto:infomrpc">infomrpc</a></p>
+                <p class="con-p"><a href="mailto:infomrpc">info@mrpc.lk</a></p>
             </div>
         </div>
     </div>

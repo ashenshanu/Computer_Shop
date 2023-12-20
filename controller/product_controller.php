@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Shasheesha
- * Date: 3/5/2023
- * Time: 4:12 PM
- */
+
 
 
 function getAllCategories()

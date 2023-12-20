@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Shasheesha
- * Date: 3/18/2023
- * Time: 11:14 PM
- */
+
 
 function getMessagesForShop($shopID){
 

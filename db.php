@@ -2,8 +2,8 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "123546";
-$dbName = "sanakin_db";
+$password = "";
+$dbName = "mr_pc";
 
 
 // Create connection

@@ -65,49 +65,49 @@ include "./controller/shop_controller.php";
             <div class="feature-cards">
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/product.jpg">
-        				<h3> Second Hand </h3>
-        				<p> If you wants to second hand good conditions dekstop and laptop</p>
+                        <img class="f-img" src="./assets/fe1.jpg">
+        				<h3> Delivery</h3>
+        				<p> We are delivery anything iland widely</p>
                     </div>
                 </div>
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/product.jpg">
-        				<h3> Second Hand </h3>
-        				<p> If you wants to second hand good conditions dekstop and laptop</p>
+                        <img class="f-img" src="./assets/fe2.jpg">
+        				<h3> Repair </h3>
+        				<p> Mr.Pc repairs any computers, laptops and printers</p>
                     </div>
                 </div>
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/product.jpg">
-        				<h3> Second Hand </h3>
-        				<p> If you wants to second hand good conditions dekstop and laptop</p>
+                        <img class="f-img" src="./assets/fe3.jpg">
+        				<h3> Onlie Oder </h3>
+        				<p> If you wants to buy anything can you order the online</p>
                     </div>
                 </div>
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/product.jpg">
-        				<h3> Second Hand </h3>
-        				<p> If you wants to second hand good conditions dekstop and laptop</p>
+                        <img class="f-img" src="./assets/fe4.jpg">
+        				<h3> Discount </h3>
+        				<p> Mr.Pc gives big discounts for every items</p>
                     </div>
                 </div>
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/product.jpg">
-        				<h3> Second Hand </h3>
-        				<p> If you wants to second hand good conditions dekstop and laptop</p>
+                        <img class="f-img" src="./assets/fe5.jpg">
+        				<h3> Payment </h3>
+        				<p> Mr.Pc assepts every payment methods</p>
                     </div>
                 </div>
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/product.jpg">
-        				<h3> Second Hand </h3>
-        				<p> If you wants to second hand good conditions dekstop and laptop</p>
+                        <img class="f-img" src="./assets/fe6.jpg">
+        				<h3> Customer Support</h3>
+        				<p> Mr.Pc supports to the every problems of the customer</p>
                     </div>
                 </div>
                 

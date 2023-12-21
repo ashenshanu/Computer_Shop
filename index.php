@@ -40,21 +40,21 @@ include "./controller/shop_controller.php";
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                        <img src="./assets/hero-slides/pro1.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/hero-slides/slide 2.png" class="d-block w-100" alt="...">
+                        <img src="./assets/hero-slides/pro2.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                        <img src="./assets/hero-slides/pro3.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <div class="carousel-caption d-none d-md-block hero-banner-content">
-                    <div class="row hero-content">
+                   <!--<div class="row hero-content">
                         <h1 class="main-title">Find the Best Products<br>with <span class="primarycolor-text">Reliability</h1>
 
-                    </div>
-
+                    </div> -->
+ 
                 </div>
             </div>
         </div>
@@ -65,47 +65,47 @@ include "./controller/shop_controller.php";
             <div class="feature-cards">
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/fe1.jpg">
+                        <img class="f-img" src="./assets/feau1.jpg">
         				<h3> Delivery</h3>
-        				<p> We are delivery anything iland widely</p>
+        				<p> We are delivery anything iland widely <br> A delivery charge of Rs. 300 will be added to the final pricing</p>
                     </div>
                 </div>
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/fe2.jpg">
+                        <img class="f-img" src="./assets/feau2.jpg">
         				<h3> Repair </h3>
-        				<p> Mr.Pc repairs any computers, laptops and printers</p>
+        				<p> We have specialize in fixing repair all kind of Desktops and Laptops, we repair all with reasonable price</p>
                     </div>
                 </div>
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/fe3.jpg">
+                        <img class="f-img" src="./assets/feau3.jpg">
         				<h3> Onlie Oder </h3>
-        				<p> If you wants to buy anything can you order the online</p>
+        				<p> If you wants to buy anything can you order the online. <br> Mr.Pc have lot of products </p>
                     </div>
                 </div>
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/fe4.jpg">
+                        <img class="f-img" src="./assets/feau4.jpg">
         				<h3> Discount </h3>
-        				<p> Mr.Pc gives big discounts for every items</p>
+        				<p> Enjoy the lowest prices and bulk discounts offered by Mr.Pc!</p>
                     </div>
                 </div>
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/fe5.jpg">
+                        <img class="f-img" src="./assets/feau5.jpg">
         				<h3> Payment </h3>
-        				<p> Mr.Pc assepts every payment methods</p>
+        				<p> Mr.Pc have secure payment methods & assepts every payment methods</p>
                     </div>
                 </div>
                 
                 <div class="f-card">
                     <div class="f-card-boader">
-                        <img class="f-img" src="./assets/fe6.jpg">
+                        <img class="f-img" src="./assets/feau6.jpg">
         				<h3> Customer Support</h3>
         				<p> Mr.Pc supports to the every problems of the customer</p>
                     </div>
@@ -162,7 +162,7 @@ include "./controller/shop_controller.php";
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                    <img src="./assets/hero-slides/pro10.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/hero-slides/slide 2.png" class="d-block w-100" alt="...">
@@ -268,9 +268,9 @@ include "./controller/shop_controller.php";
                     }
                     ?>
 
-<!--                    <li class="nav-item" role="presentation">-->
-<!--                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Search Tag</button>-->
-<!--                    </li>-->
+                        <!--                    <li class="nav-item" role="presentation">-->
+                        <!--                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Search Tag</button>-->
+                        <!--                    </li>-->
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
                     <?php

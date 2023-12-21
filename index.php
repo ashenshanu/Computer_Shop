@@ -162,13 +162,13 @@ include "./controller/shop_controller.php";
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/hero-slides/pro10.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/hero-slides/pro7.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/hero-slides/slide 2.png" class="d-block w-100" alt="...">
+                    <img src="./assets/hero-slides/pro8.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                    <img src="./assets/hero-slides/pro9.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
         </div>
@@ -220,13 +220,13 @@ include "./controller/shop_controller.php";
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                    <img src="./assets/hero-slides/pro4.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/hero-slides/slide 2.png" class="d-block w-100" alt="...">
+                    <img src="./assets/hero-slides/pro5.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                    <img src="./assets/hero-slides/pro10.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
         </div>
@@ -352,13 +352,13 @@ include "./controller/shop_controller.php";
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                        <img src="./assets/hero-slides/pro13.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/hero-slides/slide 2.png" class="d-block w-100" alt="...">
+                        <img src="./assets/hero-slides/pro18.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                        <img src="./assets/hero-slides/pro11.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#ad-banner-carousel2" data-bs-slide="prev">

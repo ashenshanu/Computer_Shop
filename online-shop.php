@@ -51,23 +51,23 @@ include "./controller/shop_controller.php";
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                        <img src="./assets/hero-slides/pro6.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/hero-slides/slide 2.png" class="d-block w-100" alt="...">
+                        <img src="./assets/hero-slides/pro14.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                        <img src="./assets/hero-slides/pro15.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <div class="carousel-caption d-none d-md-block hero-banner-content">
-                    <div class="row hero-content">
-                        <h1 class="main-title page-title">Shop Online</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-<!--                        <div class="search-bar">-->
-<!--                            <input type="search" class="search" name="Search" placeholder="Search Here Shop or Product" id="search_head" onkeyup="handleSearchFiled(event)">-->
-<!--                            <input type="button" id="search-btn" class="search-btn btn primary" value="Search" onclick="handleSearchButton(document.getElementById('search_head').value)">-->
-<!--                        </div>-->
+                  <!-- <div class="row hero-content">-->
+                       <!-- <h1 class="main-title page-title">Shop Online</h1>-->
+                       <!--  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>-->
+                            <!--<div class="search-bar">-->
+                            <!--                            <input type="search" class="search" name="Search" placeholder="Search Here Shop or Product" id="search_head" onkeyup="handleSearchFiled(event)">-->
+                            <!--                            <input type="button" id="search-btn" class="search-btn btn primary" value="Search" onclick="handleSearchButton(document.getElementById('search_head').value)">-->
+                            <!--                        </div>-->
 
                     </div>
 

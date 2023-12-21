@@ -34,20 +34,20 @@ include "./controller/shop_controller.php";
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                        <img src="./assets/hero-slides/pro16.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/hero-slides/slide 2.png" class="d-block w-100" alt="...">
+                        <img src="./assets/hero-slides/pro17.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">
+                        <img src="./assets/hero-slides/pro12.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <div class="carousel-caption d-none d-md-block hero-banner-content">
-                    <div class="row hero-content">
+                   <!-- <div class="row hero-content">
                         <h1 class="main-title page-title">What's New to Marcket</h1>
                         <p>Let us take care of all your shopping needs!</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

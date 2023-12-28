@@ -314,7 +314,8 @@ g .horizontal-scroll .category {
 .products .card .card-img-top {
     border: 1px solid transparent;
     border-radius: 15px;
-    height: 300px;
+    height: auto;
+    width: 100%;
     object-fit: cover;
 }
 

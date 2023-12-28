@@ -13,8 +13,8 @@
                             <img id="img-preview" >
                             <input type="file" name="" id="product-img">
                         </div>
-                        <input type="number" class="t-feild form_data" name="quantity" id="quantity" placeholder="Quantity">
-                        <input type="number" class="t-feild form_data" name="price" id="per-price" placeholder="Per Price">
+                        <input type="number" class="t-feild form_data" name="quantity" id="quantity" min="1" placeholder="Quantity">
+                        <input type="number" class="t-feild form_data" name="price" id="per-price" min="1" placeholder="Per Price">
                     </div>
                     <div class="col-8">
                         <input type="text" class="t-feild form_data" name="product-name" id="product-name" placeholder="Product Name">

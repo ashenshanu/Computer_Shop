@@ -54,12 +54,6 @@ if (!isset($_SESSION["user"])) {
                         <span>Products</span>
                     </div>
                 </li>
-                <li onclick="window.location.href ='../comming_soon.php'">
-                    <div id="cuschat">
-                        <i class="bi bi-chat-left-dots"></i>
-                        <span>CusChat</span>
-                    </div>
-                </li>
                 <li onclick="window.location.href ='./admin-inquiry.php'">
                     <div id="inquiry">
                         <i class="bi bi-chat-left-text"></i>

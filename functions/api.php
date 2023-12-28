@@ -171,6 +171,7 @@ function insertProduct($name, $price, $categoryID, $desc, $qty, $productImage, $
                     'status' => "SUCCESS",
                     'msg' => "Product Created Successfully"
                 ];
+
             }
         }
     }
@@ -301,6 +302,7 @@ function editProduct($productId, $productName, $categoryID, $desc, $quantity, $p
                 'status' => "SUCCESS",
                 'msg' => "Product Updated"
             ];
+            
         }
     } else {
 
@@ -1099,3 +1101,4 @@ if (isset($_SERVER['HTTP_APPLICATION_AUTH']) && strtolower($_SERVER['HTTP_APPLIC
         }
     }
 }
+?>

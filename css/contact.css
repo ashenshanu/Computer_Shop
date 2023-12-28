@@ -36,7 +36,7 @@ section::before
     top: 100px;
     width: 50%;
     height: fit-content;
-    background: #FFC05C;
+    background: #28D764;
     z-index: -1;
     padding: 40px;
     display: flex;
@@ -69,7 +69,7 @@ section::before
     border-radius: 20px;
 }
 .primary{
-    background: #ffac27 !important;
+    background: #28D764 !important;
     color: white !important;
     font-weight: 500;
 }
@@ -98,7 +98,7 @@ section::before
 }
 .con{
     font-size: 50px;
-    color: #ffac27;
+    color: #28D764;
 }
 .r1{
     display: flex;

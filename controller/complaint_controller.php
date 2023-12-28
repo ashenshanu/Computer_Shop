@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Shasheesha
- * Date: 3/19/2023
- * Time: 2:04 PM
- */
+
 function getComplaintsOrderByDate(){
 
     $conn = getConnection();

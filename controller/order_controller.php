@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Shasheesha
- * Date: 3/8/2023
- * Time: 8:53 PM
- */
+
 require_once '../functions/code-generate.php';
 
 function insertOrder($address,$city,$msg,$userID,$cart,$tel){

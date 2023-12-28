@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Shasheesha
- * Date: 3/6/2023
- * Time: 8:02 AM
- */
 
 function search($searchText){
 

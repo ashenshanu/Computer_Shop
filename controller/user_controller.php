@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Shasheesha
- * Date: 3/6/2023
- * Time: 10:57 PM
- */
 
 function insertUser($email,$password,$fname,$lname,$fullname,$bday,$gender,$nic,$mobile,$address,$city,$zip,$type){
 

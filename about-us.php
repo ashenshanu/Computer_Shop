@@ -24,7 +24,7 @@ include "./includes/home-navigation.php";
     <section class="row">
         <div class="col-md-12 hero-sec">
             <h1 class="page-title">About Us</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <p>With an impressive legacy spanning more than two decades, we have consistently upheld the highest standards of excellence within the computing industry.</p>
         </div>
     </section>
     <section>
@@ -88,15 +88,16 @@ include "./includes/home-navigation.php";
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="testimonial-card">
-                                    <p class="comment">“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.”</p>
+                                    <p class="comment">“Everyone here has been super helpful, professional, friendly and efficient! They take the time to educate you where needed with your computer and they are super proficient. They provide great service at a great price! you have to come here for your computer needs!”</p>
                                     <h5 class="testimonial-name">Amishka Amarasignhe</h5>
                                     <h6 class="orange-text acc-type">Customer</h6>
                                 </div>
                             </div>
                             <div class="carousel-item">
                             <div class="testimonial-card">
-                                    <p class="comment">“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.”</p>
-                                    <h5 class="testimonial-name">Amishka Amarasignhe</h5>
+                                    <p class="comment">“Great review service.
+                                        We’ve been with them for years and their customer service, and support, have been excellent. .”</p>
+                                    <h5 class="testimonial-name">Nisadi Sadira</h5>
                                     <h6 class="orange-text acc-type">Shopper</h6>
                                 </div>
                             </div>

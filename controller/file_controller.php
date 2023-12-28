@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Shasheesha
- * Date: 3/6/2023
- * Time: 2:55 PM
- */
-
 
 function uploadFile($file,$fileName,$imageType){
 

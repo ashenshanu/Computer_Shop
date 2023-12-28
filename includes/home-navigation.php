@@ -26,7 +26,6 @@ if(isset($_SESSION["user"])){
 
             <ul class="nav-items">
                 <li id="home-page"><a href="./index.php">Home</a></li>
-                <li id="features-page"><a href="./index.php">Features</a></li>
                 <li id="shop-online-page"><a href="./online-shop.php">Products</a></li>
                 <li id="review-page"><a href="./whats-new.php">Reviews</a></li>
                 <li id="contact-page"><a href="./contact-us.php">Contact</a></li>

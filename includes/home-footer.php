@@ -4,11 +4,11 @@
             <div class="col-lg-4 col-md-6 text-muted">
                 <img src="./assets/Mr.PC.png" alt="" onclick="location.href='./index.php'" srcset="">
                 <!-- <h5 class="h1 text-white">FB.</h5> -->
-                <p class="medium text-muted">Sanakin is the best online platform for you, Join us today & Experience the best online shopping experience with us.</p>
+                <p class="medium text-muted">Mr.PC is the best online platform for you, Join us today & Experience the best online shopping experience with us.</p>
                 <h5 class="mb-3 sub-sec-title">Contact Us</h5>
                 <div class="contact-details">
-                    <a class="" href="#">123/S, Buddhaloka Mw<br> Suwarapola<br> Piliyandal</a>
-                    <a class="" href="tel:+94763133646">(+94) 76 3133 646</a>
+                    <a class="" href="#">79/7, Polhena<br> Madapatha<br> Piliyandala</a>
+                    <a class="" href="tel:+94763133646">(+94) 75 608 7339</a>
                 </div>
                 <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="./index.php">Mr.PC</a></p>
             </div>

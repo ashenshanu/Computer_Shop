@@ -136,7 +136,7 @@ include "./controller/shop_controller.php";
                     <?php
 
                     if($productResult != null) {
-                        for ($p = 0; $p < count($productResult); $p++) {
+                        for ($p = 0; $p < 10; $p++) {
 
                             ?>
                             <li class='card col-md-3'>

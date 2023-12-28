@@ -24,7 +24,7 @@ if(!isset($_SESSION["shop"])){
 <body>
     <header id="top_header">
         <div class="wrapper">
-          <a href="index.html"><img id="logo_top" draggable="false" src="images/sanakilogo.png"></a>
+          <a href="index.html"><img id="logo_top" draggable="false" src="../assets/Mr.PC.png"></a>
         </div>
     </header>
 

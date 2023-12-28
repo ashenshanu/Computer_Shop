@@ -2,8 +2,7 @@
 include "./code-generate.php";
 include "./email-configuration.php";
 
-// https://drive.google.com/uc?id=1PgV43MSYVk4-qN4HSjq9i3aRsJh_DvPU
-// https://drive.google.com/uc?id=1JI8gMeILy4Tt9BeuKbN7-ZeYJCnWVisT
+
 function emailVerificationSend($toEmail){
     $genCode = generateCode();
 
@@ -28,13 +27,13 @@ function emailVerificationSend($toEmail){
             <td style='text-align: center; font-family: 'Manrope', sans-serif;'>
               <table style='margin: auto;'>
                 <tr>
-                  <td style='text-align:center;'><img src='http://sanakin-lk.000webhostapp.com/assets/Mr.PC.png' style='width: 200px; margin-top: 30px;' alt='Mr.PC'></td>
+                  <td style='text-align:center;'></td>
                 </tr>
                 <tr>
                   <td style='text-align:center;font-size: 36px; font-weight: bold; color: #000000;'>Verify Your Email</td>
                 </tr>
                 <tr>
-                  <td style='text-align:center;'><img src='http://sanakin-lk.000webhostapp.com/assets/icons/orange-shild.png' style='width: 165px; margin-top: 20px;' alt='verify code'></td>
+                  <td style='text-align:center;'></td>
                 </tr>
                 <tr style='margin-top: 30px;'>
                   <td style='width: 512px; font-size: 16px;font-weight: 500; text-align: left;'>
@@ -100,7 +99,7 @@ function emailVerificationSend($toEmail){
     
     return send_email($to, $subject, $body);
   
-    // send_email("shashishajanith1@gmail.com","testing subject" , "testing");
+    
 }
 
 
@@ -126,7 +125,7 @@ function fogetPasswordVerificationSend($toEmail,$resetLink){
               <td style='text-align: center; font-family: 'Manrope', sans-serif;'>
                 <table style='margin: auto;'>
                   <tr>
-                    <td><img src='http://sanakin-lk.000webhostapp.com/assets/Mr.PC.png' style='width: 200px; margin-top: 30px;' alt='Mr.PC'></td>
+                    <td></td>
                   </tr>
                   <tr>
                     <td style='font-size: 36px; font-weight: bold; color: #000000;'>Reset Password<br>Verification</td>

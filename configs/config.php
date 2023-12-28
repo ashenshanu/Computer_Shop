@@ -23,6 +23,5 @@ define("ACCOUNT_TYPE_CUSTOMER","CUSTOMER");
 define("ACCOUNT_TYPE_SHOPPER","SHOPPER");
 define("ACCOUNT_TYPE_ADMIN","ADMIN");
 
-
-define("BASE_URL","http://localhost/sanakin_lk-Git");
+define("BASE_URL","http://localhost/mrpc_lk-Git");
 ?>

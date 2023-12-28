@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: Shasheesha
- * Date: 3/5/2023
- * Time: 10:57 AM
- */
+
 session_start();
 
 include('../connectors/db-connector.php');
@@ -766,7 +761,7 @@ function sendResetLink($email){
 
             $resetLink = "https://live-site-url/account_password_reset.php?san-rest-pa=".$randomCode;
             if($dev) {
-                $resetLink = "http://localhost/sanakin_lk-Git/account_password_reset.php?san-rest-pa=".$randomCode;
+                $resetLink = "http://localhost/mrpc_lk-Git/account_password_reset.php?san-rest-pa=".$randomCode;
             }
 
             if(fogetPasswordVerificationSend($email,$resetLink)) {

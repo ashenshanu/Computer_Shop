@@ -12,7 +12,7 @@
                 <div class="sign-up-body">
                     <form class="step s1" id="signup-s1" method="POST" required>
                         <input type="hidden" id="account_type" value="CUSTOMER">
-                        <input type="hidden" id="sanakin_uuu_sss" value="">
+                        <input type="hidden" id="mrpc_uuu_sss" value="">
                         <h2>Create Account</h2>
                         <div class="account-type-selector">
                             <label class="switch btn-color-mode-switch">
@@ -258,7 +258,7 @@
 
                             if (responseObj.data) {
                                 if (responseObj.data.user_id) {
-                                    document.getElementById('sanakin_uuu_sss').value = responseObj.data.user_id;
+                                    document.getElementById('mrpc_uuu_sss').value = responseObj.data.user_id;
                                 }
                             }
                             //document.getElementById('submitedEmail').innerHTML = email;
@@ -286,7 +286,7 @@
 
             const formData = new FormData();
             formData.append('image', dpImage.files[0]);
-            formData.append('userID', document.getElementById('sanakin_uuu_sss').value);
+            formData.append('userID', document.getElementById('mrpc_uuu_sss').value);
             formData.append('action', "add_user_dp");
 
             xhttp.onreadystatechange = function() {

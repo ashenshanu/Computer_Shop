@@ -74,7 +74,7 @@ if($_GET["san-rest-pa"] != null && strlen($_GET["san-rest-pa"]) > 3) {
         <div class="sign-up-body">
             <form class="step s1" id="signup-s1" method="POST" required>
                 <input type="hidden" id="account_type" value="CUSTOMER">
-                <input type="hidden" id="sanakin_uuu_sss" value="">
+                <input type="hidden" id="mrpc_uuu_sss" value="">
                 <h2>Reset Password</h2>
                 <div class="feilds">
                     <input type="hidden" id="user_id" value="<?php echo $resetData["user_user_id"]; ?>">

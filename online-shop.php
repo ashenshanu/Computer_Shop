@@ -167,7 +167,7 @@ include "./controller/shop_controller.php";
                     }
 
                     if($categorizedList != null) {
-                        for ($p = 0; $p < count($categorizedList); $p++) {
+                        for ($p = 0; $p < 10; $p++) {
 
                             ?>
                             <li class='card col-md-4'>

@@ -90,11 +90,6 @@ if(isset($_SESSION["user"])){
                     <img style="width: 40px; height: 40px; object-fit: cover;" onerror="this.src='./assets/product.jpg'" src='./uploads/user_images/<?php echo $_SESSION['user']['dp_img']?>' alt='Card image cap'>
                 </button>
             </div>
-                    <!-- <div >
-                        <img >
-                        <h6 style="margin: 0px;">Welcome, <?php echo $_SESSION['user']['first_name'] ?></h6>
-                    </div> -->
-
                     <?php
                 }elseif(isset($_SESSION["user"]) && $_SESSION["user"]['acc_type']== ACCOUNT_TYPE_ADMIN) {
 

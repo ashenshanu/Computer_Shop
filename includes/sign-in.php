@@ -76,7 +76,7 @@
                 </form>
 
             </div>
-            <div class="canvas-right" style="background:url('./assets/sign-in-wall.jpg')">
+            <div class="canvas-right" style="background:url('./assets/sign-in-wall.jpg');background-position: right top;background-size: cover;background-repeat: no-repeat;">
                 <div class="canvas-header">
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" onclick="resetCanvas()"></button>
                 </div>

@@ -211,7 +211,7 @@ include "./controller/shop_controller.php";
     </div>
 
     <div class="section ad-banner-1">
-        <div class="container">
+        <!-- <div class="container"> -->
         <div id="ad-banner-carousel1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators" style="display: none;">
                 <button type="button" data-bs-target="#ad-banner-carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -230,7 +230,7 @@ include "./controller/shop_controller.php";
                 </div>
             </div>
         </div>
-        </div>
+        <!-- </div> -->
     </div>
    
 
@@ -342,8 +342,8 @@ include "./controller/shop_controller.php";
         </div>
     </div>
 
-    <div class="section ad-banner-2">
-        <div class="container">
+    <div class="section ad-banner-4">
+        <!-- <div class="container"> -->
             <div id="ad-banner-carousel2" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#ad-banner-carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -370,39 +370,10 @@ include "./controller/shop_controller.php";
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </div>
+        <!-- </div> -->
     </div>
 
-    <!-- <div class="section cat-sec">
-        <div class="container">
-            <h2 class="section-header">Today Best Deals For You</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="cat-tile">
-                        <div class="cat-img">
-                            <img src="./assets/hero-slides/slide 1.png" alt="" srcset="">
-                        </div>
-                        <div class="cat-text">
-                            <h4 id="cat-name1">Fashion & Apparel</h4>
-                            <input type="button" class="btn primary" onclick="location.href='./online-shop.php?cat_id=2'" value="Shop Now">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="cat-tile">
-                        <div class="cat-img">
-                            <img src="./assets/hero-slides/slide 1.png" alt="" srcset="">
-                        </div>
-                        <div class="cat-text">
-                            <h4 id="cat-name2">Electronic & Tech Gadgets</h4>
-                            <input type="button" class="btn primary" onclick="location.href='./online-shop.php?cat_id=1'" value="Shop Now">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
+   
 
     <script src="./js/bootstrap.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>

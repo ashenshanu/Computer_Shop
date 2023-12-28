@@ -761,7 +761,7 @@ function sendResetLink($email){
 
             $resetLink = "https://live-site-url/account_password_reset.php?san-rest-pa=".$randomCode;
             if($dev) {
-                $resetLink = "http://localhost/mrpc_lk-Git/account_password_reset.php?san-rest-pa=".$randomCode;
+                $resetLink = "http://localhost/computer_shop/account_password_reset.php?san-rest-pa=".$randomCode;
             }
 
             if(fogetPasswordVerificationSend($email,$resetLink)) {

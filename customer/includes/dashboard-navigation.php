@@ -34,12 +34,6 @@ $shopData = null;
                         <span>Complaint</span>
                     </div>
                 </li>
-                <li onclick="window.location.href ='../comming_soon.php'">
-                    <div  id="cuschat">
-                        <i class="bi bi-chat-left-dots"></i>
-                        <span>CusChat</span>
-                    </div>
-                </li>
             </ul>
         </div>
         <div class="nav-bottom">

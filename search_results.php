@@ -106,7 +106,7 @@ include "./controller/shop_controller.php";
                                         <div class="row">
                                             <?php
                                             if ($shopResult != null) {
-                                                for ($shp = 0; $shp < count($shopResult); $shp++) {
+                                                for ($shp = 0; $shp < 10; $shp++) {
                                                     ?>
                                                     <div class='col-md-3'>
                                                         <div class='card'

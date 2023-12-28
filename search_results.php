@@ -51,44 +51,6 @@ include "./controller/shop_controller.php";
             <div>
                 <h2>Search Results for <b><?php echo $searchText?></b></h2>
             </div>
-<!--            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">-->
-<!--                <div class="carousel-indicators">-->
-<!--                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>-->
-<!--                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>-->
-<!--                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
-<!--                </div>-->
-<!--                <div class="carousel-inner">-->
-<!--                    <div class="carousel-item active">-->
-<!--                        <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">-->
-<!--                    </div>-->
-<!--                    <div class="carousel-item">-->
-<!--                        <img src="./assets/hero-slides/slide 2.png" class="d-block w-100" alt="...">-->
-<!--                    </div>-->
-<!--                    <div class="carousel-item">-->
-<!--                        <img src="./assets/hero-slides/slide 1.png" class="d-block w-100" alt="...">-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="carousel-caption d-none d-md-block hero-banner-content">-->
-<!--                    <div class="row hero-content">-->
-<!--                        <h1 class="main-title">Shop Online</h1>-->
-<!--                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>-->
-<!--                        <div class="search-bar">-->
-<!--                            <input type="search" class="search" name="Search" placeholder="Search Here Shop or Product" id="">-->
-<!--                            <input type="button" id="search-btn" class="search-btn btn primary" value="Search">-->
-<!--                        </div>-->
-<!---->
-<!--                    </div>-->
-<!---->
-<!--                </div>-->
-                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button> -->
-<!--            </div>-->
         </div>
     </div>
 
@@ -98,7 +60,6 @@ include "./controller/shop_controller.php";
                 <div class="col-md-12">
                     <div class="section shops">
                         <div class="container baoth-sides-margin-14">
-<!--                            <h4 class="section-header">Results by Shops</h4>-->
                             <div id="shopsIndicators" class="carousel slide" data-interval="pause"
                                  data-bs-ride="carousel">
                                 <div class="carousel-inner">
@@ -106,7 +67,7 @@ include "./controller/shop_controller.php";
                                         <div class="row">
                                             <?php
                                             if ($shopResult != null) {
-                                                for ($shp = 0; $shp < 10; $shp++) {
+                                                for ($shp = 0; $shp < count($shopResult); $shp++) {
                                                     ?>
                                                     <div class='col-md-3'>
                                                         <div class='card'
@@ -136,7 +97,7 @@ include "./controller/shop_controller.php";
                     <?php
 
                     if($productResult != null) {
-                        for ($p = 0; $p < 10; $p++) {
+                        for ($p = 0; $p < count($productResult); $p++) {
 
                             ?>
                             <li class='card col-md-3'>

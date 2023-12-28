@@ -15,7 +15,6 @@ require_once "./connectors/db-connector.php";
 require_once "./configs/config.php";
 
 include "./includes/home-navigation.php"; 
-// include "./includes/home-header.php";
 
 
 include "./controller/product_controller.php";
@@ -61,25 +60,12 @@ include "./controller/shop_controller.php";
                     </div>
                 </div>
                 <div class="carousel-caption d-none d-md-block hero-banner-content">
-                  <!-- <div class="row hero-content">-->
-                       <!-- <h1 class="main-title page-title">Shop Online</h1>-->
-                       <!--  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>-->
-                            <!--<div class="search-bar">-->
-                            <!--                            <input type="search" class="search" name="Search" placeholder="Search Here Shop or Product" id="search_head" onkeyup="handleSearchFiled(event)">-->
-                            <!--                            <input type="button" id="search-btn" class="search-btn btn primary" value="Search" onclick="handleSearchButton(document.getElementById('search_head').value)">-->
-                            <!--                        </div>-->
+                
 
                     </div>
 
                 </div>
-                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button> -->
+         
             </div>
         </div>
     </div>
@@ -107,10 +93,6 @@ include "./controller/shop_controller.php";
                             <input type="range" name="" id="priceRangeInput" value="<?php echo !($isRange) ?$maxPrice : $maxRange?>" min="<?php echo $minPrice?>" max="<?php echo $maxPrice?>">
                             <p>max price Rs.<span id="rangeValue"><?php echo !($isRange) ?$maxPrice : $maxRange?></span></p>
                         </div>
-<!--                        <select name="" id="priceVariant">-->
-<!--                            <option value="l-h">Lower to Higher</option>-->
-<!--                            <option value="h-l">Higher to Lower</option>-->
-<!--                        </select>-->
 
                     </div>
                     <div class="tool cat-filter">
@@ -167,7 +149,7 @@ include "./controller/shop_controller.php";
                     }
 
                     if($categorizedList != null) {
-                        for ($p = 0; $p < 10; $p++) {
+                        for ($p = 0; $p < count($categorizedList); $p++) {
 
                             ?>
                             <li class='card col-md-4'>

@@ -26,6 +26,9 @@
     <div class="offcanvas offcanvas-end sign-in-canvas" tabindex="-1" id="sign-in-offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-body">
             <div class="canvas-left">
+                <div class="canvas-header">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" onclick="resetCanvas()"></button>
+                </div>
                 <img src="./assets/Mr.PC.png" class="logo" alt="">
                 <form class="sign-in-form sign-in1" id="sign-in1" action="" method="">
                     <div class="form-container">

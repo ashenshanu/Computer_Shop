@@ -26,8 +26,9 @@
                 <h5 class="mb-3 sub-sec-title">Categories</h5>
                 <ul class="list-unstyled text-muted">
                     <?php $categoryList = getAllCategories();
+                    $catCount = count(getAllCategories());
                     if($categoryList != null) {
-                        for ($cou = 0; $cou < 10; $cou++) {
+                        for ($cou = 0; $cou < $catCount; $cou++) {
                             ?>
                             <li><a href="./online-shop.php?cat_id=<?php echo $categoryList[$cou][0]?>"><?php echo $categoryList[$cou][1]?></a></li>
 

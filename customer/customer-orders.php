@@ -37,11 +37,6 @@
 
         
         <div class="sec-container">
-            <div class="tool-bar">
-                <input type="text" class="t-feild form_data" name="searchByCustomer" id="searchByCustomer" placeholder="Search Customer">
-
-
-            </div>
             <div class="table-responsive">
                 <table class="table top-selling-table">
                     <thead>

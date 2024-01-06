@@ -40,9 +40,6 @@
             <span class="current_timestamp" id="datetime"></span>
         </div>
         <div class="sec-container">
-            <div class="tool-bar">
-                <input type="text" class="t-feild form_data" name="searchByProduct" id="searchByProduct" placeholder="Search Product">
-            </div>
             <div class="table-responsive">
                 <table class="table ">
                     <thead>

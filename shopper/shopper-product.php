@@ -35,7 +35,6 @@
         </div>
         <div class="sec-container">
             <div class="tool-bar">
-                <input type="text" class="t-feild form_data" name="searchByProduct" id="searchByProduct" placeholder="Search Product">
                 <button type="button" class="primary btn" id="add-product" data-bs-toggle="modal" data-bs-target="#add-product-modal">Add New Product <img src="../assets/icons/plus (1).svg" alt="" srcset=""></button>
             </div>
             <div class="table-responsive">

@@ -135,7 +135,7 @@ if($orderID != null && $shopID != null){
                 <div class="row">
                     <div class="col-8">
                         <p class="m-0 font-weight-bold"> Note: </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In delectus, adipisci vero est dolore praesentium.</p>
+                        <p>You could return the item within 15 days after receiving the item for free within the limit of three(3) times per month</p>
                     </div>
                     <div class="col-4">
                         <table class="table border-0 table-hover">

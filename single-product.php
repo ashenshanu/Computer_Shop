@@ -82,7 +82,7 @@ $productCat = getCategoryById($productData[0][8]);
                 }
                 for ($pro = 0; $pro < $maxProduct; $pro++) {
                     ?>
-                    <div class='card col-md-4'>
+                    <div class='card col-md-3'>
                         <div class='product-tile'>
                         <div class="f-card-boader">
                             <img class='card-img-top' onerror="this.src='./assets/product.jpg'" src='uploads/product_images/<?php echo $categorizedList[$pro][10]?>' alt='Card image cap' onclick=location.href='./single-product.php?id=<?php echo $categorizedList[$pro][0] ?>'>

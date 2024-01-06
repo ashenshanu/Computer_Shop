@@ -34,7 +34,7 @@ if($orderID != null && $shopID != null){
         <div class="p-5">
             <section class="top-content bb d-flex justify-content-between">
                 <div class="logo">
-                    <img src="logo.png" alt="" class="img-fluid">
+                    <img src="../assets/Mr.PC.png" alt="" class="img-fluid">
                 </div>
                 <div class="top-left">
                     <div class="graphic-path">
